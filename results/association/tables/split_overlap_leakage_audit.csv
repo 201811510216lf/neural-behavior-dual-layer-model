@@ -1,0 +1,7 @@
+﻿run,fold,n_valid_test_windows,n_test_windows_overlapping_a_train_window,fraction_overlapping_a_train_window
+run1,fold01,326,262,0.803680981595092
+run1,fold02,322,270,0.8385093167701864
+run1,fold03,322,276,0.8571428571428571
+run2,fold01,63,36,0.5714285714285714
+run2,fold02,61,42,0.6885245901639344
+run2,fold03,66,40,0.6060606060606061

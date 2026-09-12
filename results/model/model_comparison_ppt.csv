@@ -1,0 +1,10 @@
+method,accuracy_percent,f1_percent,recall_percent
+SVM,49.71,33.64,37.11
+Random Forest Classifier,50.42,35.99,38.92
+Linear,42.86,34.09,34.56
+KNN,42.24,20.90,21.19
+Logistic Regression,56.43,20.00,14.42
+Decision Tree,52.96,21.55,19.73
+Three-layered,39.63,21.13,21.04
+Hierarchical Conv-LSTM-Attention,77.83,79.34,79.57
+

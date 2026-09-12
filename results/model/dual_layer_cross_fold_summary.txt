@@ -1,0 +1,15 @@
+===== Legacy Cross-Fold Summary =====
+accuracy: 74.70% ± 0.70%
+precision: 75.23% ± 0.43%
+recall: 71.85% ± 1.82%
+f1: 72.80% ± 1.22%
+mcc: 59.11% ± 0.76%
+auc: 84.05% ± 0.47%
+aupr: 75.24% ± 1.88%
+
+Average Per-Class Accuracy:
+  Class 0: 81.59% ± 2.83%
+  Class 1: 82.41% ± 0.40%
+  Class 2: 72.80% ± 11.06%
+  Class 3: 75.88% ± 5.37%
+  Class 4: 65.16% ± 5.93%

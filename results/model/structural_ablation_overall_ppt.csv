@@ -1,0 +1,6 @@
+method,accuracy_mean,accuracy_sd,recall_mean,recall_sd,f1_mean,f1_sd
+No Attention,66.44,3.17,57.41,5.53,53.75,4.34
+No Conv,43.50,3.67,32.75,3.24,30.11,2.31
+No LSTM,62.76,2.07,50.96,5.25,48.34,3.77
+Full model,74.50,3.33,75.24,4.10,76.32,3.25
+

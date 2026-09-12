@@ -1,0 +1,12 @@
+figure,behavior,center_seconds,window_start_seconds,window_end_seconds,p_value,higher_group
+01,L1 Hole Exploration,-0.69,-0.79,-0.59,0.0344,Groups 3+5
+02,L1 Hole Exploration,-0.15,-0.25,-0.05,0.0367,Groups 1+2+4+6
+03,L2 Wrong Hole Exploration,-0.39,-0.49,-0.29,0.0384,Groups 1+2+4+6
+04,L2 Wrong Hole Exploration,0.06,-0.04,0.16,0.0138,Groups 1+2+4+6
+05,L2 Wrong Hole Exploration,0.46,0.36,0.56,0.0295,Groups 1+2+4+6
+06,L2 Wrong Hole Exploration,0.82,0.72,0.92,0.0263,Groups 1+2+4+6
+07,L3 Hesitating,0.95,0.85,1.05,0.0097,Groups 3+5
+08,L4 Changing Direction,-0.55,-0.65,-0.45,0.0454,Groups 1+2+4+6
+09,L5 Walking,0.33,0.23,0.43,0.0135,Groups 3+5
+10,L5 Walking,0.70,0.60,0.80,0.0326,Groups 3+5
+

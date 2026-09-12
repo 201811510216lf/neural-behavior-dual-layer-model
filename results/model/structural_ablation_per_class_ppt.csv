@@ -1,0 +1,6 @@
+method,hole_exploration_mean,hole_exploration_sd,wrong_hole_mean,wrong_hole_sd,hesitating_mean,hesitating_sd,changing_direction_mean,changing_direction_sd,walking_mean,walking_sd
+No Attention,68.52,2.23,41.23,6.81,79.27,3.66,51.95,6.10,46.07,12.26
+No Conv,44.45,4.06,14.60,7.21,58.38,2.81,37.04,3.44,9.29,3.98
+No LSTM,67.49,3.70,36.09,6.62,72.15,8.19,44.44,7.86,34.64,8.46
+Full model,81.55,7.49,72.03,6.63,63.37,16.79,81.91,6.11,48.00,7.58
+
