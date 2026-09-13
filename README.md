@@ -23,6 +23,7 @@ Each stage uses temporal convolution, a two-layer LSTM, temporal attention, and 
 - `results/group_differences`: ten behavior-aligned two-group figures used in the group-meeting deck, plus a compact p-value index.
 - `results/masking`: maximum, mean, and minimum segment replacement; attention shuffling and zeroing; convolution mean replacement; and 50/100/200 ms LSTM shuffling.
 - `results/association`: RSA, CKA, decision-geometry, overlap, and frozen-model intervention results.
+- `results/window_mechanism`: the new L2/L3/L5 window-by-behavior heatmap, architecture-by-perturbation interactions, mechanism contrasts, 500-repeat random-window nulls, L3 Drop/Keep diagnostic, source tables, code, and QA reports.
 - `figures/raster_examples`: one full raster figure per recording. These are derived figures only; the source spike and label tables are not included.
 
 The reproduced legacy baseline was:
@@ -73,3 +74,4 @@ Checkpoints are written to `checkpoints/`, which Git ignores.
 
 See [EXPERIMENT_INDEX.md](docs/EXPERIMENT_INDEX.md) for the mapping between presentation sections and repository artifacts.
 
+The newest window-mechanism conclusions are summarized in Chinese at [`results/window_mechanism/RESULTS_SUMMARY_CN.md`](results/window_mechanism/RESULTS_SUMMARY_CN.md). The matched-null analysis does not support original L2/L5 time-position specificity, so the large replacement effects should be reported as fitted-model sensitivity rather than localized causal evidence.

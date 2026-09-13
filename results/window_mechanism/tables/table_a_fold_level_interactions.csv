@@ -1,0 +1,145 @@
+﻿target,target_label,outcome,metric_key,condition,architecture,architecture_label,fold,baseline,perturbed,delta_perturb_minus_baseline
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,full,Full,fold01,74.65127124861137,69.01855519922866,-5.632716049382708
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,full,Full,fold02,74.43908312966037,73.41850283276429,-1.0205802968960853
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,full,Full,fold03,74.35590371710916,70.1133261192684,-4.242577597840764
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,no_conv,NoConv,fold01,68.0493797217057,61.26174531310355,-6.787634408602152
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,no_conv,NoConv,fold02,70.24691847484716,66.29955005379453,-3.94736842105263
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,no_conv,NoConv,fold03,61.93453547018911,58.974009154399646,-2.9605263157894655
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,no_lstm,NoLSTM,fold01,70.36799361007057,59.59395202462548,-10.77404158544509
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,no_lstm,NoLSTM,fold02,64.04095692083807,60.54784915141452,-3.4931077694235526
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,no_lstm,NoLSTM,fold03,71.2650111631436,65.03188025896006,-6.23313090418354
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,no_attention,NoAttention,fold01,68.81086003539313,58.944011013196075,-9.866849022197059
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,no_attention,NoAttention,fold02,77.42685653339304,71.64798628083858,-5.778870252554455
+2,L2,Stage-2 macro recall,stage2_macro_recall,maximum,no_attention,NoAttention,fold03,68.3086049490973,65.03600036070324,-3.27260458839406
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,full,Full,fold01,74.65127124861137,72.26741809721436,-2.3838531513970054
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,full,Full,fold02,74.43908312966037,74.8714217305049,0.43233860084453113
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,full,Full,fold03,74.35590371710916,68.42979813056213,-5.926105586547024
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,no_conv,NoConv,fold01,68.0493797217057,55.05235609932837,-12.997023622377334
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,no_conv,NoConv,fold02,70.24691847484716,63.963180283214236,-6.283738191632928
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,no_conv,NoConv,fold03,61.93453547018911,52.16950564998103,-9.765029820208078
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,no_lstm,NoLSTM,fold01,70.36799361007057,62.306752544443555,-8.061241065627016
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,no_lstm,NoLSTM,fold02,64.04095692083807,64.80729584507174,0.7663389242336649
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,no_lstm,NoLSTM,fold03,71.2650111631436,58.69030516738496,-12.574705995758634
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,no_attention,NoAttention,fold01,68.81086003539313,68.81086003539313,0.0
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,no_attention,NoAttention,fold02,77.42685653339304,77.42685653339304,0.0
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_shuffle,no_attention,NoAttention,fold03,68.3086049490973,68.3086049490973,0.0
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,full,Full,fold01,74.65127124861137,76.79303171309397,2.1417604644826014
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,full,Full,fold02,74.43908312966037,74.40534493802745,-0.03373819163292069
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,full,Full,fold03,74.35590371710916,72.05327213816177,-2.302631578947384
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,no_conv,NoConv,fold01,68.0493797217057,65.53806110257723,-2.511318619128474
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,no_conv,NoConv,fold02,70.24691847484716,69.5721546421886,-0.6747638326585701
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,no_conv,NoConv,fold03,61.93453547018911,60.28979862808385,-1.6447368421052602
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,no_lstm,NoLSTM,fold01,70.36799361007057,70.36799361007057,0.0
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,no_lstm,NoLSTM,fold02,64.04095692083807,61.20574388825662,-2.83521303258145
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,no_lstm,NoLSTM,fold03,71.2650111631436,68.96237958419623,-2.30263157894737
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,no_attention,NoAttention,fold01,68.81086003539313,68.85147082161795,0.04061078622481773
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,no_attention,NoAttention,fold02,77.42685653339304,75.12422495444567,-2.30263157894737
+2,L2,Stage-2 macro recall,stage2_macro_recall,attention_zero,no_attention,NoAttention,fold03,68.3086049490973,67.6507102122552,-0.6578947368420955
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,full,Full,fold01,74.65127124861137,68.12329041690246,-6.527980831708902
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,full,Full,fold02,74.43908312966037,71.2969022276535,-3.1421809020068707
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,full,Full,fold03,74.35590371710916,70.22285715840471,-4.13304655870445
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,no_conv,NoConv,fold01,68.0493797217057,61.186899634091205,-6.8624800876145
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,no_conv,NoConv,fold02,70.24691847484716,66.89764384596725,-3.349274628879911
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,no_conv,NoConv,fold03,61.93453547018911,59.43124599650491,-2.503289473684198
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,no_lstm,NoLSTM,fold01,70.36799361007057,61.95809977452592,-8.40989383554465
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,no_lstm,NoLSTM,fold02,64.04095692083807,60.81758599351978,-3.2233709273182924
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,no_lstm,NoLSTM,fold03,71.2650111631436,65.3198357245471,-5.945175438596493
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,no_attention,NoAttention,fold01,68.81086003539313,59.36962122300974,-9.441238812383396
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,no_attention,NoAttention,fold02,77.42685653339304,70.8672845264526,-6.559572006940442
+2,L2,Stage-2 macro recall,stage2_macro_recall,random_window,no_attention,NoAttention,fold03,68.3086049490973,64.8024477291243,-3.506157219973005
+3,L3,Hesitating recall,c2,maximum,full,Full,fold01,63.41463414634146,63.41463414634146,0.0
+3,L3,Hesitating recall,c2,maximum,full,Full,fold02,85.0,85.0,0.0
+3,L3,Hesitating recall,c2,maximum,full,Full,fold03,70.0,72.5,2.5
+3,L3,Hesitating recall,c2,maximum,no_conv,NoConv,fold01,73.17073170731707,73.17073170731707,0.0
+3,L3,Hesitating recall,c2,maximum,no_conv,NoConv,fold02,75.0,75.0,0.0
+3,L3,Hesitating recall,c2,maximum,no_conv,NoConv,fold03,87.5,90.0,2.5
+3,L3,Hesitating recall,c2,maximum,no_lstm,NoLSTM,fold01,65.85365853658537,65.85365853658537,0.0
+3,L3,Hesitating recall,c2,maximum,no_lstm,NoLSTM,fold02,70.0,70.0,0.0
+3,L3,Hesitating recall,c2,maximum,no_lstm,NoLSTM,fold03,75.0,75.0,0.0
+3,L3,Hesitating recall,c2,maximum,no_attention,NoAttention,fold01,73.17073170731707,73.17073170731707,0.0
+3,L3,Hesitating recall,c2,maximum,no_attention,NoAttention,fold02,72.5,72.5,0.0
+3,L3,Hesitating recall,c2,maximum,no_attention,NoAttention,fold03,82.5,82.5,0.0
+3,L3,Hesitating recall,c2,attention_shuffle,full,Full,fold01,63.41463414634146,63.41463414634146,0.0
+3,L3,Hesitating recall,c2,attention_shuffle,full,Full,fold02,85.0,85.0,0.0
+3,L3,Hesitating recall,c2,attention_shuffle,full,Full,fold03,70.0,72.5,2.5
+3,L3,Hesitating recall,c2,attention_shuffle,no_conv,NoConv,fold01,73.17073170731707,73.17073170731707,0.0
+3,L3,Hesitating recall,c2,attention_shuffle,no_conv,NoConv,fold02,75.0,75.0,0.0
+3,L3,Hesitating recall,c2,attention_shuffle,no_conv,NoConv,fold03,87.5,90.0,2.5
+3,L3,Hesitating recall,c2,attention_shuffle,no_lstm,NoLSTM,fold01,65.85365853658537,65.85365853658537,0.0
+3,L3,Hesitating recall,c2,attention_shuffle,no_lstm,NoLSTM,fold02,70.0,70.0,0.0
+3,L3,Hesitating recall,c2,attention_shuffle,no_lstm,NoLSTM,fold03,75.0,77.5,2.5
+3,L3,Hesitating recall,c2,attention_shuffle,no_attention,NoAttention,fold01,73.17073170731707,73.17073170731707,0.0
+3,L3,Hesitating recall,c2,attention_shuffle,no_attention,NoAttention,fold02,72.5,72.5,0.0
+3,L3,Hesitating recall,c2,attention_shuffle,no_attention,NoAttention,fold03,82.5,82.5,0.0
+3,L3,Hesitating recall,c2,attention_zero,full,Full,fold01,63.41463414634146,63.41463414634146,0.0
+3,L3,Hesitating recall,c2,attention_zero,full,Full,fold02,85.0,85.0,0.0
+3,L3,Hesitating recall,c2,attention_zero,full,Full,fold03,70.0,70.0,0.0
+3,L3,Hesitating recall,c2,attention_zero,no_conv,NoConv,fold01,73.17073170731707,73.17073170731707,0.0
+3,L3,Hesitating recall,c2,attention_zero,no_conv,NoConv,fold02,75.0,75.0,0.0
+3,L3,Hesitating recall,c2,attention_zero,no_conv,NoConv,fold03,87.5,90.0,2.5
+3,L3,Hesitating recall,c2,attention_zero,no_lstm,NoLSTM,fold01,65.85365853658537,65.85365853658537,0.0
+3,L3,Hesitating recall,c2,attention_zero,no_lstm,NoLSTM,fold02,70.0,70.0,0.0
+3,L3,Hesitating recall,c2,attention_zero,no_lstm,NoLSTM,fold03,75.0,75.0,0.0
+3,L3,Hesitating recall,c2,attention_zero,no_attention,NoAttention,fold01,73.17073170731707,73.17073170731707,0.0
+3,L3,Hesitating recall,c2,attention_zero,no_attention,NoAttention,fold02,72.5,72.5,0.0
+3,L3,Hesitating recall,c2,attention_zero,no_attention,NoAttention,fold03,82.5,82.5,0.0
+3,L3,Hesitating recall,c2,random_window,full,Full,fold01,63.41463414634146,63.414634146341456,-7.105427357601002e-15
+3,L3,Hesitating recall,c2,random_window,full,Full,fold02,85.0,85.0,0.0
+3,L3,Hesitating recall,c2,random_window,full,Full,fold03,70.0,71.65,1.6500000000000057
+3,L3,Hesitating recall,c2,random_window,no_conv,NoConv,fold01,73.17073170731707,73.17073170731706,-1.4210854715202004e-14
+3,L3,Hesitating recall,c2,random_window,no_conv,NoConv,fold02,75.0,75.675,0.6749999999999972
+3,L3,Hesitating recall,c2,random_window,no_conv,NoConv,fold03,87.5,87.625,0.125
+3,L3,Hesitating recall,c2,random_window,no_lstm,NoLSTM,fold01,65.85365853658537,65.85365853658539,1.4210854715202004e-14
+3,L3,Hesitating recall,c2,random_window,no_lstm,NoLSTM,fold02,70.0,70.65,0.6500000000000057
+3,L3,Hesitating recall,c2,random_window,no_lstm,NoLSTM,fold03,75.0,75.0,0.0
+3,L3,Hesitating recall,c2,random_window,no_attention,NoAttention,fold01,73.17073170731707,73.17073170731706,-1.4210854715202004e-14
+3,L3,Hesitating recall,c2,random_window,no_attention,NoAttention,fold02,72.5,72.5,0.0
+3,L3,Hesitating recall,c2,random_window,no_attention,NoAttention,fold03,82.5,82.5,0.0
+5,L5,Walking recall,c4,maximum,full,Full,fold01,66.44736842105263,59.58646616541354,-6.86090225563909
+5,L5,Walking recall,c4,maximum,full,Full,fold02,70.34774436090225,61.560150375939855,-8.787593984962399
+5,L5,Walking recall,c4,maximum,full,Full,fold03,58.693609022556394,56.71992481203007,-1.9736842105263221
+5,L5,Walking recall,c4,maximum,no_conv,NoConv,fold01,71.61654135338347,66.07142857142857,-5.545112781954899
+5,L5,Walking recall,c4,maximum,no_conv,NoConv,fold02,79.08834586466165,71.94548872180451,-7.142857142857139
+5,L5,Walking recall,c4,maximum,no_conv,NoConv,fold03,50.46992481203007,44.266917293233085,-6.203007518796987
+5,L5,Walking recall,c4,maximum,no_lstm,NoLSTM,fold01,70.6296992481203,61.795112781954884,-8.834586466165419
+5,L5,Walking recall,c4,maximum,no_lstm,NoLSTM,fold02,58.599624060150376,53.05451127819549,-5.545112781954884
+5,L5,Walking recall,c4,maximum,no_lstm,NoLSTM,fold03,60.902255639097746,56.62593984962406,-4.276315789473685
+5,L5,Walking recall,c4,maximum,no_attention,NoAttention,fold01,62.546992481203006,51.738721804511286,-10.80827067669172
+5,L5,Walking recall,c4,maximum,no_attention,NoAttention,fold02,89.52067669172932,77.77255639097744,-11.748120300751879
+5,L5,Walking recall,c4,maximum,no_attention,NoAttention,fold03,56.71992481203007,51.127819548872175,-5.592105263157897
+5,L5,Walking recall,c4,attention_shuffle,full,Full,fold01,66.44736842105263,54.088345864661655,-12.359022556390975
+5,L5,Walking recall,c4,attention_shuffle,full,Full,fold02,70.34774436090225,68.75,-1.5977443609022544
+5,L5,Walking recall,c4,attention_shuffle,full,Full,fold03,58.693609022556394,60.244360902255636,1.5507518796992414
+5,L5,Walking recall,c4,attention_shuffle,no_conv,NoConv,fold01,71.61654135338347,67.01127819548873,-4.60526315789474
+5,L5,Walking recall,c4,attention_shuffle,no_conv,NoConv,fold02,79.08834586466165,69.59586466165413,-9.492481203007515
+5,L5,Walking recall,c4,attention_shuffle,no_conv,NoConv,fold03,50.46992481203007,38.62781954887218,-11.84210526315789
+5,L5,Walking recall,c4,attention_shuffle,no_lstm,NoLSTM,fold01,70.6296992481203,72.55639097744361,1.9266917293233092
+5,L5,Walking recall,c4,attention_shuffle,no_lstm,NoLSTM,fold02,58.599624060150376,60.902255639097746,2.30263157894737
+5,L5,Walking recall,c4,attention_shuffle,no_lstm,NoLSTM,fold03,60.902255639097746,53.242481203007515,-7.659774436090231
+5,L5,Walking recall,c4,attention_shuffle,no_attention,NoAttention,fold01,62.546992481203006,62.546992481203006,0.0
+5,L5,Walking recall,c4,attention_shuffle,no_attention,NoAttention,fold02,89.52067669172932,89.52067669172932,0.0
+5,L5,Walking recall,c4,attention_shuffle,no_attention,NoAttention,fold03,56.71992481203007,56.71992481203007,0.0
+5,L5,Walking recall,c4,attention_zero,full,Full,fold01,66.44736842105263,65.78947368421052,-0.6578947368421098
+5,L5,Walking recall,c4,attention_zero,full,Full,fold02,70.34774436090225,64.80263157894737,-5.545112781954884
+5,L5,Walking recall,c4,attention_zero,full,Full,fold03,58.693609022556394,57.377819548872175,-1.3157894736842195
+5,L5,Walking recall,c4,attention_zero,no_conv,NoConv,fold01,71.61654135338347,69.3139097744361,-2.30263157894737
+5,L5,Walking recall,c4,attention_zero,no_conv,NoConv,fold02,79.08834586466165,78.7593984962406,-0.32894736842104066
+5,L5,Walking recall,c4,attention_zero,no_conv,NoConv,fold03,50.46992481203007,52.725563909774436,2.255639097744364
+5,L5,Walking recall,c4,attention_zero,no_lstm,NoLSTM,fold01,70.6296992481203,68.37406015037594,-2.255639097744364
+5,L5,Walking recall,c4,attention_zero,no_lstm,NoLSTM,fold02,58.599624060150376,58.599624060150376,0.0
+5,L5,Walking recall,c4,attention_zero,no_lstm,NoLSTM,fold03,60.902255639097746,63.81578947368421,2.9135338345864668
+5,L5,Walking recall,c4,attention_zero,no_attention,NoAttention,fold01,62.546992481203006,61.889097744360896,-0.6578947368421098
+5,L5,Walking recall,c4,attention_zero,no_attention,NoAttention,fold02,89.52067669172932,87.87593984962406,-1.6447368421052602
+5,L5,Walking recall,c4,attention_zero,no_attention,NoAttention,fold03,56.71992481203007,59.30451127819549,2.584586466165419
+5,L5,Walking recall,c4,random_window,full,Full,fold01,66.44736842105263,58.61832706766918,-7.829041353383452
+5,L5,Walking recall,c4,random_window,full,Full,fold02,70.34774436090225,61.77396616541354,-8.573778195488714
+5,L5,Walking recall,c4,random_window,full,Full,fold03,58.693609022556394,55.46597744360902,-3.227631578947374
+5,L5,Walking recall,c4,random_window,no_conv,NoConv,fold01,71.61654135338347,65.77866541353383,-5.8378759398496385
+5,L5,Walking recall,c4,random_window,no_conv,NoConv,fold02,79.08834586466165,71.33693609022556,-7.751409774436084
+5,L5,Walking recall,c4,random_window,no_conv,NoConv,fold03,50.46992481203007,43.59257518796992,-6.877349624060152
+5,L5,Walking recall,c4,random_window,no_lstm,NoLSTM,fold01,70.6296992481203,62.22979323308272,-8.399906015037587
+5,L5,Walking recall,c4,random_window,no_lstm,NoLSTM,fold02,58.599624060150376,53.51503759398495,-5.084586466165426
+5,L5,Walking recall,c4,random_window,no_lstm,NoLSTM,fold03,60.902255639097746,58.62734962406015,-2.274906015037594
+5,L5,Walking recall,c4,random_window,no_attention,NoAttention,fold01,62.546992481203006,52.066729323308266,-10.48026315789474
+5,L5,Walking recall,c4,random_window,no_attention,NoAttention,fold02,89.52067669172932,76.65742481203007,-12.863251879699249
+5,L5,Walking recall,c4,random_window,no_attention,NoAttention,fold03,56.71992481203007,51.04229323308273,-5.6776315789473415

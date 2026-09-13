@@ -1,0 +1,4 @@
+﻿window,n_uncorrected_significant_timepoints,minimum_uncorrected_p,mean_behavior_delta_pp,behavior_delta_sd_pp,mapped_centers_run1,mapped_centers_run2,strongest_descriptive_interaction,interaction_mean_pp,interaction_exact_p,interaction_bh_fdr_q,interpretation_status
+L2,5,0.01375229,-3.631957981373189,2.365922924960277,665,57,attention_shuffle; Full - NoConv,7.056057165706281,0.25,1.0,Candidate shared Stage-2 temporal information
+L3,4,0.00974027,0.8333333333333334,1.4433756729740643,2,3,maximum; Full - NoLSTM,0.8333333333333334,1.0,1.0,Inconclusive: weak fitted-model effect but severely limited mapped coverage
+L5,11,0.01354893,-5.874060150375939,3.5125111542995855,1545,50,attention_shuffle; Full - NoConv,4.5112781954887184,0.5,1.0,Candidate Walking-dominant content and temporal-allocation dependence

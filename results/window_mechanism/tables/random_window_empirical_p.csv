@@ -1,0 +1,10 @@
+﻿target,target_label,outcome,fold,observed_maximum_delta,empirical_one_sided_p
+2,L2,Stage-2 macro recall,fold01,-5.632716049382708,0.9481037924151696
+2,L2,Stage-2 macro recall,fold02,-1.0205802968960853,0.9960079840319361
+2,L2,Stage-2 macro recall,fold03,-4.242577597840764,0.5508982035928144
+3,L3,Hesitating recall,fold01,0.0,1.0
+3,L3,Hesitating recall,fold02,0.0,1.0
+3,L3,Hesitating recall,fold03,2.5,1.0
+5,L5,Walking recall,fold01,-6.86090225563909,0.7964071856287425
+5,L5,Walking recall,fold02,-8.787593984962399,0.45109780439121755
+5,L5,Walking recall,fold03,-1.9736842105263221,0.9900199600798403

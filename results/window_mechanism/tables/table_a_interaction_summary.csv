@@ -1,0 +1,37 @@
+﻿target,target_label,outcome,condition,comparison,module_removed,interaction_mean_pp,interaction_sd_pp,bootstrap_ci95_low_pp,bootstrap_ci95_high_pp,exact_sign_flip_p,n_folds,bh_fdr_q
+2,L2,Stage-2 macro recall,maximum,Full - NoConv,no_conv,0.9332184004415632,2.113160060337026,-1.2820512820512988,2.9267881241565448,0.75,3,1.0
+2,L2,Stage-2 macro recall,maximum,Full - NoLSTM,no_lstm,3.2014687716442083,1.697161740689899,1.9905533063427754,5.141325536062382,0.25,3,1.0
+2,L2,Stage-2 macro recall,maximum,Full - NoAttention,no_attention,2.674149973008672,3.1667663900437364,-0.9699730094467043,4.75828995565837,0.5,3,1.0
+2,L2,Stage-2 macro recall,attention_shuffle,Full - NoConv,no_conv,7.056057165706281,3.3998960295271083,3.8389242336610536,10.613170470980329,0.25,3,1.0
+2,L2,Stage-2 macro recall,attention_shuffle,Full - NoLSTM,no_lstm,3.997329333350829,3.7823439656010183,-0.33400032338913377,6.64860040921161,0.5,3,1.0
+2,L2,Stage-2 macro recall,attention_shuffle,Full - NoAttention,no_attention,-2.625873379033166,3.186123579521384,-5.926105586547024,0.43233860084453113,0.5,3,1.0
+2,L2,Stage-2 macro recall,attention_zero,Full - NoConv,no_conv,1.545403329264867,2.7685799577804313,-0.657894736842124,4.653079083611075,0.75,3,1.0
+2,L2,Stage-2 macro recall,attention_zero,Full - NoLSTM,no_lstm,1.6477451018103721,1.4646172554746333,-1.4210854715202004e-14,2.8014748409485293,0.5,3,1.0
+2,L2,Stage-2 macro recall,attention_zero,Full - NoAttention,no_attention,0.9084354078223148,2.2127021695954263,-1.6447368421052886,2.2688933873144492,0.5,3,1.0
+2,L2,Stage-2 macro recall,random_window,Full - NoConv,no_conv,-0.3627213674138711,1.0991326919324862,-1.6297570850202518,0.33449925590559815,1.0,3,1.0
+2,L2,Stage-2 macro recall,random_window,Full - NoLSTM,no_lstm,1.2584106363464045,1.0200998633824196,0.08119002531142172,1.8819130038357486,0.25,3,1.0
+2,L2,Stage-2 macro recall,random_window,Full - NoAttention,no_attention,1.9012532489588736,2.2038979693973877,-0.6268893387314449,3.4173911049335715,0.5,3,1.0
+3,L3,Hesitating recall,maximum,Full - NoConv,no_conv,0.0,0.0,0.0,0.0,1.0,3,1.0
+3,L3,Hesitating recall,maximum,Full - NoLSTM,no_lstm,0.8333333333333334,1.4433756729740643,0.0,2.5,1.0,3,1.0
+3,L3,Hesitating recall,maximum,Full - NoAttention,no_attention,0.8333333333333334,1.4433756729740643,0.0,2.5,1.0,3,1.0
+3,L3,Hesitating recall,attention_shuffle,Full - NoConv,no_conv,0.0,0.0,0.0,0.0,1.0,3,1.0
+3,L3,Hesitating recall,attention_shuffle,Full - NoLSTM,no_lstm,0.0,0.0,0.0,0.0,1.0,3,1.0
+3,L3,Hesitating recall,attention_shuffle,Full - NoAttention,no_attention,0.8333333333333334,1.4433756729740643,0.0,2.5,1.0,3,1.0
+3,L3,Hesitating recall,attention_zero,Full - NoConv,no_conv,-0.8333333333333334,1.4433756729740643,-2.5,0.0,1.0,3,1.0
+3,L3,Hesitating recall,attention_zero,Full - NoLSTM,no_lstm,0.0,0.0,0.0,0.0,1.0,3,1.0
+3,L3,Hesitating recall,attention_zero,Full - NoAttention,no_attention,0.0,0.0,0.0,0.0,1.0,3,1.0
+3,L3,Hesitating recall,random_window,Full - NoConv,no_conv,0.28333333333333854,1.1270351961377851,-0.6749999999999972,1.5250000000000057,1.0,3,1.0
+3,L3,Hesitating recall,random_window,Full - NoLSTM,no_lstm,0.3333333333333262,1.1856784274555026,-0.6500000000000057,1.6500000000000057,1.0,3,1.0
+3,L3,Hesitating recall,random_window,Full - NoAttention,no_attention,0.5500000000000043,0.9526279441628838,0.0,1.6500000000000057,1.0,3,1.0
+5,L5,Walking recall,maximum,Full - NoConv,no_conv,0.4229323308270712,3.3005318961753396,-1.6447368421052602,4.229323308270665,1.0,3,1.0
+5,L5,Walking recall,maximum,Full - NoLSTM,no_lstm,0.3446115288220592,3.1108643964107783,-3.2424812030075145,2.302631578947363,1.0,3,1.0
+5,L5,Walking recall,maximum,Full - NoAttention,no_attention,3.5087719298245617,0.5024754051486624,2.9605263157894797,3.94736842105263,0.25,3,1.0
+5,L5,Walking recall,attention_shuffle,Full - NoConv,no_conv,4.5112781954887184,10.971813528163116,-7.753759398496236,13.392857142857132,0.5,3,1.0
+5,L5,Walking recall,attention_shuffle,Full - NoLSTM,no_lstm,-2.9918546365914787,11.774437940716908,-14.285714285714285,9.210526315789473,0.75,3,1.0
+5,L5,Walking recall,attention_shuffle,Full - NoAttention,no_attention,-4.135338345864663,7.293832575547321,-12.359022556390975,1.5507518796992414,0.5,3,1.0
+5,L5,Walking recall,attention_zero,Full - NoConv,no_conv,-2.380952380952389,3.5820273743267887,-5.216165413533844,1.6447368421052602,0.5,3,1.0
+5,L5,Walking recall,attention_zero,Full - NoLSTM,no_lstm,-2.7255639097744386,3.8014564692023844,-5.545112781954884,1.5977443609022544,0.5,3,1.0
+5,L5,Walking recall,attention_zero,Full - NoAttention,no_attention,-2.600250626566421,2.2518830988129244,-3.9003759398496385,0.0,0.5,3,1.0
+5,L5,Walking recall,random_window,Full - NoConv,no_conv,0.2787280701754445,2.9772809173395554,-1.991165413533814,3.6497180451127775,1.0,3,1.0
+5,L5,Walking recall,random_window,Full - NoLSTM,no_lstm,-1.290350877192978,2.0509772338098577,-3.489191729323288,0.5708646616541344,0.5,3,1.0
+5,L5,Walking recall,random_window,Full - NoAttention,no_attention,3.1302318295739298,1.0089617494279375,2.4499999999999673,4.2894736842105345,0.25,3,1.0

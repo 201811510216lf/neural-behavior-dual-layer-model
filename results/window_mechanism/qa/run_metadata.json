@@ -1,0 +1,22 @@
+{
+  "python_environment": "pytorch-GPU",
+  "torch": "1.13.0",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "project_protocol": "legacy hierarchical 5 s windows, 50% overlap, saved three-fold splits",
+  "model_selection_warning": "best epoch selected on heldout fold to remain legacy-compatible",
+  "max_epochs": 200,
+  "min_epochs": 60,
+  "patience": 40,
+  "attention_shuffle_repeats": 20,
+  "random_repeats_full": 500,
+  "random_repeats_arch": 100,
+  "dataset_windows": {
+    "run1": 979,
+    "run2": 214
+  },
+  "input_channels": {
+    "run1": 12,
+    "run2": 12
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "repeats_per_target_per_fold": 500,
+  "null": "independent nonzero circular shift of each affected sample's exact binary mask",
+  "replacement": "channel-wise maximum from the unchanged 5 s sample",
+  "model": "frozen Full"
+}

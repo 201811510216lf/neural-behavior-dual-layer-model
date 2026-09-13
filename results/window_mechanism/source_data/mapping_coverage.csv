@@ -1,0 +1,11 @@
+﻿run,target,target_label,n_windows,center_occurrences,segment_bins,boundary_clipped_centers,cross_recording_windows,time_discontinuous_windows
+run1,1,L1,979,16,1800,16,3,6
+run1,2,L2,979,665,41776,268,3,6
+run1,3,L3,979,2,211,2,3,6
+run1,4,L4,979,222,19940,88,3,6
+run1,5,L5,979,1545,35373,645,3,6
+run2,1,L1,214,39,4560,18,9,15
+run2,2,L2,214,57,4528,41,9,15
+run2,3,L3,214,3,441,2,9,15
+run2,4,L4,214,6,357,6,9,15
+run2,5,L5,214,50,1729,24,9,15

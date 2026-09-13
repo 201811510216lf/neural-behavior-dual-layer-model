@@ -1,0 +1,317 @@
+[
+  {
+    "file": "fig_a_window_behavior.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_a_window_behavior.pdf",
+      "ext": "pdf",
+      "size_bytes": 44289,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_a_window_behavior.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_a_window_behavior.png",
+      "ext": "png",
+      "size_bytes": 306170,
+      "category": "raster",
+      "size_px": [
+        4125,
+        1959
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_a_window_behavior.svg",
+    "issues": [
+      {
+        "level": "WARN",
+        "message": "SVG \u4e2d\u5305\u542b base64 \u5d4c\u5165\u7684\u4f4d\u56fe\u2014\u2014\u4f1a\u4e22\u5931\u77e2\u91cf\u4f18\u52bf\u3002\u68c0\u67e5\u662f\u5426\u5728 plot \u4e2d\u8bef\u7528\u4e86 imshow \u6216\u56fe\u50cf\u8d34\u56fe\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_a_window_behavior.svg",
+      "ext": "svg",
+      "size_bytes": 34376,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_a_window_behavior.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_a_window_behavior.tiff",
+      "ext": "tiff",
+      "size_bytes": 32659406,
+      "category": "raster",
+      "size_px": [
+        4320,
+        1890
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  },
+  {
+    "file": "fig_b_architecture_interaction.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_b_architecture_interaction.pdf",
+      "ext": "pdf",
+      "size_bytes": 49752,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_b_architecture_interaction.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_b_architecture_interaction.png",
+      "ext": "png",
+      "size_bytes": 407147,
+      "category": "raster",
+      "size_px": [
+        4388,
+        3459
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_b_architecture_interaction.svg",
+    "issues": [
+      {
+        "level": "WARN",
+        "message": "SVG \u4e2d\u5305\u542b base64 \u5d4c\u5165\u7684\u4f4d\u56fe\u2014\u2014\u4f1a\u4e22\u5931\u77e2\u91cf\u4f18\u52bf\u3002\u68c0\u67e5\u662f\u5426\u5728 plot \u4e2d\u8bef\u7528\u4e86 imshow \u6216\u56fe\u50cf\u8d34\u56fe\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_b_architecture_interaction.svg",
+      "ext": "svg",
+      "size_bytes": 66202,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_b_architecture_interaction.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_b_architecture_interaction.tiff",
+      "ext": "tiff",
+      "size_bytes": 58579406,
+      "category": "raster",
+      "size_px": [
+        4320,
+        3390
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  },
+  {
+    "file": "fig_c_mechanism_contrast.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_c_mechanism_contrast.pdf",
+      "ext": "pdf",
+      "size_bytes": 43353,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_c_mechanism_contrast.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_c_mechanism_contrast.png",
+      "ext": "png",
+      "size_bytes": 182836,
+      "category": "raster",
+      "size_px": [
+        4389,
+        1779
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_c_mechanism_contrast.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_c_mechanism_contrast.svg",
+      "ext": "svg",
+      "size_bytes": 40207,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_c_mechanism_contrast.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_c_mechanism_contrast.tiff",
+      "ext": "tiff",
+      "size_bytes": 29549006,
+      "category": "raster",
+      "size_px": [
+        4320,
+        1710
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  },
+  {
+    "file": "fig_d_random_window_null.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_d_random_window_null.pdf",
+      "ext": "pdf",
+      "size_bytes": 50411,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_d_random_window_null.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_d_random_window_null.png",
+      "ext": "png",
+      "size_bytes": 402214,
+      "category": "raster",
+      "size_px": [
+        4314,
+        1872
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_d_random_window_null.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_d_random_window_null.svg",
+      "ext": "svg",
+      "size_bytes": 69245,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_d_random_window_null.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_d_random_window_null.tiff",
+      "ext": "tiff",
+      "size_bytes": 32141006,
+      "category": "raster",
+      "size_px": [
+        4320,
+        1860
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  },
+  {
+    "file": "fig_e_l3_drop_keep.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_e_l3_drop_keep.pdf",
+      "ext": "pdf",
+      "size_bytes": 29672,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_e_l3_drop_keep.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_e_l3_drop_keep.png",
+      "ext": "png",
+      "size_bytes": 211789,
+      "category": "raster",
+      "size_px": [
+        2169,
+        1689
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_e_l3_drop_keep.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_e_l3_drop_keep.svg",
+      "ext": "svg",
+      "size_bytes": 13717,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_e_l3_drop_keep.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\neural-behavior-dual-layer-model\\results\\window_mechanism\\figures\\fig_e_l3_drop_keep.tiff",
+      "ext": "tiff",
+      "size_bytes": 13608206,
+      "category": "raster",
+      "size_px": [
+        2100,
+        1620
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  }
+]

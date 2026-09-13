@@ -39,5 +39,4 @@ The training pipeline removes label 0, converts labels 1–5 to classes 0–4, c
 
 ## Public artifacts
 
-Only aggregate metrics, explanatory documents, selected p-value figures, raster images, and source code are public. The raster and group-difference figures are static derived outputs and cannot be used as drop-in replacements for the omitted numerical tables.
-
+Only aggregate metrics, fold-level performance summaries without animal or recording identifiers, explanatory documents, selected p-value figures, raster images, randomization-null summaries, and source code are public. The raster and group-difference figures are static derived outputs and cannot be used as drop-in replacements for the omitted numerical tables. The `results/window_mechanism/` bundle contains no checkpoints, aligned bins, labels, per-window predictions, or animal-level rows.

@@ -1,0 +1,10 @@
+﻿target,target_label,outcome,fold,observed_maximum_delta,empirical_one_sided_p,null_type
+2,L2,Stage-2 macro recall,fold01,-5.632716049382708,0.9680638722554891,circular_shift_exact_mask_geometry
+3,L3,Hesitating recall,fold01,0.0,1.0,circular_shift_exact_mask_geometry
+5,L5,Walking recall,fold01,-6.86090225563909,0.7724550898203593,circular_shift_exact_mask_geometry
+2,L2,Stage-2 macro recall,fold02,-1.0205802968960853,0.9960079840319361,circular_shift_exact_mask_geometry
+3,L3,Hesitating recall,fold02,0.0,0.9840319361277445,circular_shift_exact_mask_geometry
+5,L5,Walking recall,fold02,-8.787593984962399,0.5369261477045908,circular_shift_exact_mask_geometry
+2,L2,Stage-2 macro recall,fold03,-4.242577597840764,0.8323353293413174,circular_shift_exact_mask_geometry
+3,L3,Hesitating recall,fold03,2.5,1.0,circular_shift_exact_mask_geometry
+5,L5,Walking recall,fold03,-1.9736842105263293,1.0,circular_shift_exact_mask_geometry
