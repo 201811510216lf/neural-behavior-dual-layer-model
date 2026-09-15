@@ -1,0 +1,253 @@
+﻿comparison_id,comparison_label,comparison_family,stage,true_class,true_label,predicted_class,predicted_label,row_n,baseline_count,intervention_count,baseline_row_percent,intervention_row_percent,delta_row_pp
+mask_max_L1,Maximum mask L1,input_mask,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,328,81.59203980099502,81.59203980099502,0.0
+mask_max_L1,Maximum mask L1,input_mask,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,68,16.915422885572138,16.915422885572138,0.0
+mask_max_L1,Maximum mask L1,input_mask,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+mask_max_L1,Maximum mask L1,input_mask,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,64,13.596491228070175,14.035087719298245,0.43859649122807015
+mask_max_L1,Maximum mask L1,input_mask,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,385,85.08771929824562,84.4298245614035,-0.6578947368421053
+mask_max_L1,Maximum mask L1,input_mask,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,7,1.3157894736842106,1.5350877192982457,0.21929824561403508
+mask_max_L1,Maximum mask L1,input_mask,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+mask_max_L1,Maximum mask L1,input_mask,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,22,18.181818181818183,18.181818181818183,0.0
+mask_max_L1,Maximum mask L1,input_mask,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,88,72.72727272727273,72.72727272727273,0.0
+mask_max_L2,Maximum mask L2,input_mask,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,329,81.59203980099502,81.8407960199005,0.24875621890547264
+mask_max_L2,Maximum mask L2,input_mask,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,67,16.915422885572138,16.666666666666668,-0.24875621890547264
+mask_max_L2,Maximum mask L2,input_mask,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+mask_max_L2,Maximum mask L2,input_mask,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,91,13.596491228070175,19.95614035087719,6.359649122807017
+mask_max_L2,Maximum mask L2,input_mask,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,353,85.08771929824562,77.41228070175438,-7.675438596491228
+mask_max_L2,Maximum mask L2,input_mask,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,12,1.3157894736842106,2.6315789473684212,1.3157894736842106
+mask_max_L2,Maximum mask L2,input_mask,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+mask_max_L2,Maximum mask L2,input_mask,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,22,18.181818181818183,18.181818181818183,0.0
+mask_max_L2,Maximum mask L2,input_mask,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,88,72.72727272727273,72.72727272727273,0.0
+mask_max_L3,Maximum mask L3,input_mask,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,328,81.59203980099502,81.59203980099502,0.0
+mask_max_L3,Maximum mask L3,input_mask,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,68,16.915422885572138,16.915422885572138,0.0
+mask_max_L3,Maximum mask L3,input_mask,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+mask_max_L3,Maximum mask L3,input_mask,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,62,13.596491228070175,13.596491228070175,0.0
+mask_max_L3,Maximum mask L3,input_mask,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,388,85.08771929824562,85.08771929824562,0.0
+mask_max_L3,Maximum mask L3,input_mask,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,6,1.3157894736842106,1.3157894736842106,0.0
+mask_max_L3,Maximum mask L3,input_mask,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+mask_max_L3,Maximum mask L3,input_mask,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,21,18.181818181818183,17.355371900826448,-0.8264462809917356
+mask_max_L3,Maximum mask L3,input_mask,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,89,72.72727272727273,73.55371900826447,0.8264462809917356
+mask_max_L4,Maximum mask L4,input_mask,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,328,81.59203980099502,81.59203980099502,0.0
+mask_max_L4,Maximum mask L4,input_mask,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,68,16.915422885572138,16.915422885572138,0.0
+mask_max_L4,Maximum mask L4,input_mask,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+mask_max_L4,Maximum mask L4,input_mask,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,75,13.596491228070175,16.44736842105263,2.8508771929824563
+mask_max_L4,Maximum mask L4,input_mask,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,372,85.08771929824562,81.57894736842105,-3.508771929824561
+mask_max_L4,Maximum mask L4,input_mask,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,9,1.3157894736842106,1.9736842105263157,0.6578947368421053
+mask_max_L4,Maximum mask L4,input_mask,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+mask_max_L4,Maximum mask L4,input_mask,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,22,18.181818181818183,18.181818181818183,0.0
+mask_max_L4,Maximum mask L4,input_mask,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,88,72.72727272727273,72.72727272727273,0.0
+mask_max_L5,Maximum mask L5,input_mask,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,328,81.59203980099502,81.59203980099502,0.0
+mask_max_L5,Maximum mask L5,input_mask,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,68,16.915422885572138,16.915422885572138,0.0
+mask_max_L5,Maximum mask L5,input_mask,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+mask_max_L5,Maximum mask L5,input_mask,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,76,13.596491228070175,16.666666666666668,3.0701754385964914
+mask_max_L5,Maximum mask L5,input_mask,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,367,85.08771929824562,80.48245614035088,-4.605263157894737
+mask_max_L5,Maximum mask L5,input_mask,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,13,1.3157894736842106,2.8508771929824563,1.5350877192982457
+mask_max_L5,Maximum mask L5,input_mask,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+mask_max_L5,Maximum mask L5,input_mask,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,22,18.181818181818183,18.181818181818183,0.0
+mask_max_L5,Maximum mask L5,input_mask,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,88,72.72727272727273,72.72727272727273,0.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,328,81.59203980099502,81.59203980099502,0.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,68,16.915422885572138,16.915422885572138,0.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,68,13.596491228070175,14.912280701754385,1.3157894736842106
+attention_zero_L2,Attention zero L2,attention_intervention,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,380,85.08771929824562,83.33333333333333,-1.7543859649122806
+attention_zero_L2,Attention zero L2,attention_intervention,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,8,1.3157894736842106,1.7543859649122806,0.43859649122807015
+attention_zero_L2,Attention zero L2,attention_intervention,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,22,18.181818181818183,18.181818181818183,0.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,88,72.72727272727273,72.72727272727273,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,328,81.59203980099502,81.59203980099502,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,68,16.915422885572138,16.915422885572138,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,62,13.596491228070175,13.596491228070175,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,388,85.08771929824562,85.08771929824562,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,6,1.3157894736842106,1.3157894736842106,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,22,18.181818181818183,18.181818181818183,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,88,72.72727272727273,72.72727272727273,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,328,81.59203980099502,81.59203980099502,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,68,16.915422885572138,16.915422885572138,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,71,13.596491228070175,15.570175438596491,1.9736842105263157
+attention_zero_L5,Attention zero L5,attention_intervention,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,376,85.08771929824562,82.45614035087719,-2.6315789473684212
+attention_zero_L5,Attention zero L5,attention_intervention,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,9,1.3157894736842106,1.9736842105263157,0.6578947368421053
+attention_zero_L5,Attention zero L5,attention_intervention,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,22,18.181818181818183,18.181818181818183,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,88,72.72727272727273,72.72727272727273,0.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,326,81.59203980099502,81.09452736318408,-0.4975124378109453
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,70,16.915422885572138,17.412935323383085,0.4975124378109453
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,69,13.596491228070175,15.131578947368421,1.5350877192982457
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,358,85.08771929824562,78.50877192982456,-6.578947368421052
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,29,1.3157894736842106,6.359649122807017,5.043859649122807
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,22,18.181818181818183,18.181818181818183,0.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,88,72.72727272727273,72.72727272727273,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,328,81.59203980099502,81.59203980099502,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,68,16.915422885572138,16.915422885572138,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,62,13.596491228070175,13.596491228070175,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,388,85.08771929824562,85.08771929824562,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,6,1.3157894736842106,1.3157894736842106,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,21,18.181818181818183,17.355371900826448,-0.8264462809917356
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,89,72.72727272727273,73.55371900826447,0.8264462809917356
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,328,81.59203980099502,81.59203980099502,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,68,16.915422885572138,16.915422885572138,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,54,13.596491228070175,11.842105263157896,-1.7543859649122806
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,372,85.08771929824562,81.57894736842105,-3.508771929824561
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,30,1.3157894736842106,6.578947368421052,5.2631578947368425
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,11,9.090909090909092,9.090909090909092,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,22,18.181818181818183,18.181818181818183,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,88,72.72727272727273,72.72727272727273,0.0
+structure_no_conv,Full vs NoConv,structural_ablation,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,327,81.59203980099502,81.34328358208955,-0.24875621890547264
+structure_no_conv,Full vs NoConv,structural_ablation,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,64,16.915422885572138,15.92039800995025,-0.9950248756218906
+structure_no_conv,Full vs NoConv,structural_ablation,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,11,1.492537313432836,2.736318407960199,1.243781094527363
+structure_no_conv,Full vs NoConv,structural_ablation,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,79,13.596491228070175,17.32456140350877,3.7280701754385963
+structure_no_conv,Full vs NoConv,structural_ablation,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,351,85.08771929824562,76.97368421052632,-8.114035087719298
+structure_no_conv,Full vs NoConv,structural_ablation,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,26,1.3157894736842106,5.701754385964913,4.385964912280702
+structure_no_conv,Full vs NoConv,structural_ablation,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,9,9.090909090909092,7.43801652892562,-1.6528925619834711
+structure_no_conv,Full vs NoConv,structural_ablation,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,17,18.181818181818183,14.049586776859504,-4.132231404958677
+structure_no_conv,Full vs NoConv,structural_ablation,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,95,72.72727272727273,78.51239669421487,5.785123966942149
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,307,81.59203980099502,76.3681592039801,-5.223880597014926
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,83,16.915422885572138,20.64676616915423,3.7313432835820897
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,12,1.492537313432836,2.985074626865672,1.492537313432836
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,87,13.596491228070175,19.07894736842105,5.482456140350878
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,350,85.08771929824562,76.75438596491227,-8.333333333333334
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,19,1.3157894736842106,4.166666666666667,2.8508771929824563
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,12,9.090909090909092,9.917355371900827,0.8264462809917356
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,24,18.181818181818183,19.834710743801654,1.6528925619834711
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,85,72.72727272727273,70.24793388429752,-2.479338842975207
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,0,L1 Hole exploration,0,L1 Hole exploration,402,328,333,81.59203980099502,82.83582089552239,1.243781094527363
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,0,L1 Hole exploration,1,Gate: L2/L4/L5,402,68,63,16.915422885572138,15.671641791044776,-1.243781094527363
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,0,L1 Hole exploration,2,L3 Hesitating,402,6,6,1.492537313432836,1.492537313432836,0.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,1,Gate: L2/L4/L5,0,L1 Hole exploration,456,62,60,13.596491228070175,13.157894736842104,-0.43859649122807015
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,1,Gate: L2/L4/L5,1,Gate: L2/L4/L5,456,388,385,85.08771929824562,84.4298245614035,-0.6578947368421053
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,1,Gate: L2/L4/L5,2,L3 Hesitating,456,6,11,1.3157894736842106,2.412280701754386,1.0964912280701755
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,2,L3 Hesitating,0,L1 Hole exploration,121,11,10,9.090909090909092,8.264462809917354,-0.8264462809917356
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,2,L3 Hesitating,1,Gate: L2/L4/L5,121,22,19,18.181818181818183,15.702479338842975,-2.479338842975207
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,2,L3 Hesitating,2,L3 Hesitating,121,88,92,72.72727272727273,76.03305785123968,3.3057851239669422
+mask_max_L1,Maximum mask L1,input_mask,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,62,79.74683544303798,78.48101265822785,-1.2658227848101267
+mask_max_L1,Maximum mask L1,input_mask,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,14,16.455696202531644,17.72151898734177,1.2658227848101267
+mask_max_L1,Maximum mask L1,input_mask,run2,0,L2 Wrong hole,2,L5 Walking,79,3,3,3.7974683544303796,3.7974683544303796,0.0
+mask_max_L1,Maximum mask L1,input_mask,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,27,25.806451612903224,29.032258064516128,3.225806451612903
+mask_max_L1,Maximum mask L1,input_mask,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,60,66.66666666666667,64.51612903225806,-2.150537634408602
+mask_max_L1,Maximum mask L1,input_mask,run2,1,L4 Changing direction,2,L5 Walking,93,7,6,7.526881720430108,6.451612903225806,-1.075268817204301
+mask_max_L1,Maximum mask L1,input_mask,run2,2,L5 Walking,0,L2 Wrong hole,42,9,8,21.428571428571427,19.047619047619047,-2.380952380952381
+mask_max_L1,Maximum mask L1,input_mask,run2,2,L5 Walking,1,L4 Changing direction,42,14,15,33.333333333333336,35.714285714285715,2.380952380952381
+mask_max_L1,Maximum mask L1,input_mask,run2,2,L5 Walking,2,L5 Walking,42,19,19,45.23809523809524,45.23809523809524,0.0
+mask_max_L2,Maximum mask L2,input_mask,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,64,79.74683544303798,81.0126582278481,1.2658227848101267
+mask_max_L2,Maximum mask L2,input_mask,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,12,16.455696202531644,15.189873417721518,-1.2658227848101267
+mask_max_L2,Maximum mask L2,input_mask,run2,0,L2 Wrong hole,2,L5 Walking,79,3,3,3.7974683544303796,3.7974683544303796,0.0
+mask_max_L2,Maximum mask L2,input_mask,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,23,25.806451612903224,24.731182795698924,-1.075268817204301
+mask_max_L2,Maximum mask L2,input_mask,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,62,66.66666666666667,66.66666666666667,0.0
+mask_max_L2,Maximum mask L2,input_mask,run2,1,L4 Changing direction,2,L5 Walking,93,7,8,7.526881720430108,8.602150537634408,1.075268817204301
+mask_max_L2,Maximum mask L2,input_mask,run2,2,L5 Walking,0,L2 Wrong hole,42,9,10,21.428571428571427,23.80952380952381,2.380952380952381
+mask_max_L2,Maximum mask L2,input_mask,run2,2,L5 Walking,1,L4 Changing direction,42,14,13,33.333333333333336,30.952380952380953,-2.380952380952381
+mask_max_L2,Maximum mask L2,input_mask,run2,2,L5 Walking,2,L5 Walking,42,19,19,45.23809523809524,45.23809523809524,0.0
+mask_max_L3,Maximum mask L3,input_mask,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,63,79.74683544303798,79.74683544303798,0.0
+mask_max_L3,Maximum mask L3,input_mask,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,13,16.455696202531644,16.455696202531644,0.0
+mask_max_L3,Maximum mask L3,input_mask,run2,0,L2 Wrong hole,2,L5 Walking,79,3,3,3.7974683544303796,3.7974683544303796,0.0
+mask_max_L3,Maximum mask L3,input_mask,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,25,25.806451612903224,26.881720430107528,1.075268817204301
+mask_max_L3,Maximum mask L3,input_mask,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,60,66.66666666666667,64.51612903225806,-2.150537634408602
+mask_max_L3,Maximum mask L3,input_mask,run2,1,L4 Changing direction,2,L5 Walking,93,7,8,7.526881720430108,8.602150537634408,1.075268817204301
+mask_max_L3,Maximum mask L3,input_mask,run2,2,L5 Walking,0,L2 Wrong hole,42,9,9,21.428571428571427,21.428571428571427,0.0
+mask_max_L3,Maximum mask L3,input_mask,run2,2,L5 Walking,1,L4 Changing direction,42,14,14,33.333333333333336,33.333333333333336,0.0
+mask_max_L3,Maximum mask L3,input_mask,run2,2,L5 Walking,2,L5 Walking,42,19,19,45.23809523809524,45.23809523809524,0.0
+mask_max_L4,Maximum mask L4,input_mask,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,64,79.74683544303798,81.0126582278481,1.2658227848101267
+mask_max_L4,Maximum mask L4,input_mask,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,11,16.455696202531644,13.924050632911392,-2.5316455696202533
+mask_max_L4,Maximum mask L4,input_mask,run2,0,L2 Wrong hole,2,L5 Walking,79,3,4,3.7974683544303796,5.063291139240507,1.2658227848101267
+mask_max_L4,Maximum mask L4,input_mask,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,24,25.806451612903224,25.806451612903224,0.0
+mask_max_L4,Maximum mask L4,input_mask,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,62,66.66666666666667,66.66666666666667,0.0
+mask_max_L4,Maximum mask L4,input_mask,run2,1,L4 Changing direction,2,L5 Walking,93,7,7,7.526881720430108,7.526881720430108,0.0
+mask_max_L4,Maximum mask L4,input_mask,run2,2,L5 Walking,0,L2 Wrong hole,42,9,9,21.428571428571427,21.428571428571427,0.0
+mask_max_L4,Maximum mask L4,input_mask,run2,2,L5 Walking,1,L4 Changing direction,42,14,14,33.333333333333336,33.333333333333336,0.0
+mask_max_L4,Maximum mask L4,input_mask,run2,2,L5 Walking,2,L5 Walking,42,19,19,45.23809523809524,45.23809523809524,0.0
+mask_max_L5,Maximum mask L5,input_mask,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,63,79.74683544303798,79.74683544303798,0.0
+mask_max_L5,Maximum mask L5,input_mask,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,13,16.455696202531644,16.455696202531644,0.0
+mask_max_L5,Maximum mask L5,input_mask,run2,0,L2 Wrong hole,2,L5 Walking,79,3,3,3.7974683544303796,3.7974683544303796,0.0
+mask_max_L5,Maximum mask L5,input_mask,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,24,25.806451612903224,25.806451612903224,0.0
+mask_max_L5,Maximum mask L5,input_mask,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,62,66.66666666666667,66.66666666666667,0.0
+mask_max_L5,Maximum mask L5,input_mask,run2,1,L4 Changing direction,2,L5 Walking,93,7,7,7.526881720430108,7.526881720430108,0.0
+mask_max_L5,Maximum mask L5,input_mask,run2,2,L5 Walking,0,L2 Wrong hole,42,9,11,21.428571428571427,26.19047619047619,4.761904761904762
+mask_max_L5,Maximum mask L5,input_mask,run2,2,L5 Walking,1,L4 Changing direction,42,14,15,33.333333333333336,35.714285714285715,2.380952380952381
+mask_max_L5,Maximum mask L5,input_mask,run2,2,L5 Walking,2,L5 Walking,42,19,16,45.23809523809524,38.095238095238095,-7.142857142857143
+attention_zero_L2,Attention zero L2,attention_intervention,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,66,79.74683544303798,83.54430379746836,3.7974683544303796
+attention_zero_L2,Attention zero L2,attention_intervention,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,12,16.455696202531644,15.189873417721518,-1.2658227848101267
+attention_zero_L2,Attention zero L2,attention_intervention,run2,0,L2 Wrong hole,2,L5 Walking,79,3,1,3.7974683544303796,1.2658227848101267,-2.5316455696202533
+attention_zero_L2,Attention zero L2,attention_intervention,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,23,25.806451612903224,24.731182795698924,-1.075268817204301
+attention_zero_L2,Attention zero L2,attention_intervention,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,63,66.66666666666667,67.74193548387096,1.075268817204301
+attention_zero_L2,Attention zero L2,attention_intervention,run2,1,L4 Changing direction,2,L5 Walking,93,7,7,7.526881720430108,7.526881720430108,0.0
+attention_zero_L2,Attention zero L2,attention_intervention,run2,2,L5 Walking,0,L2 Wrong hole,42,9,9,21.428571428571427,21.428571428571427,0.0
+attention_zero_L2,Attention zero L2,attention_intervention,run2,2,L5 Walking,1,L4 Changing direction,42,14,14,33.333333333333336,33.333333333333336,0.0
+attention_zero_L2,Attention zero L2,attention_intervention,run2,2,L5 Walking,2,L5 Walking,42,19,19,45.23809523809524,45.23809523809524,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,63,79.74683544303798,79.74683544303798,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,13,16.455696202531644,16.455696202531644,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run2,0,L2 Wrong hole,2,L5 Walking,79,3,3,3.7974683544303796,3.7974683544303796,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,24,25.806451612903224,25.806451612903224,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,61,66.66666666666667,65.59139784946237,-1.075268817204301
+attention_zero_L3,Attention zero L3,attention_intervention,run2,1,L4 Changing direction,2,L5 Walking,93,7,8,7.526881720430108,8.602150537634408,1.075268817204301
+attention_zero_L3,Attention zero L3,attention_intervention,run2,2,L5 Walking,0,L2 Wrong hole,42,9,9,21.428571428571427,21.428571428571427,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run2,2,L5 Walking,1,L4 Changing direction,42,14,14,33.333333333333336,33.333333333333336,0.0
+attention_zero_L3,Attention zero L3,attention_intervention,run2,2,L5 Walking,2,L5 Walking,42,19,19,45.23809523809524,45.23809523809524,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,63,79.74683544303798,79.74683544303798,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,13,16.455696202531644,16.455696202531644,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run2,0,L2 Wrong hole,2,L5 Walking,79,3,3,3.7974683544303796,3.7974683544303796,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,24,25.806451612903224,25.806451612903224,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,62,66.66666666666667,66.66666666666667,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run2,1,L4 Changing direction,2,L5 Walking,93,7,7,7.526881720430108,7.526881720430108,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run2,2,L5 Walking,0,L2 Wrong hole,42,9,9,21.428571428571427,21.428571428571427,0.0
+attention_zero_L5,Attention zero L5,attention_intervention,run2,2,L5 Walking,1,L4 Changing direction,42,14,15,33.333333333333336,35.714285714285715,2.380952380952381
+attention_zero_L5,Attention zero L5,attention_intervention,run2,2,L5 Walking,2,L5 Walking,42,19,18,45.23809523809524,42.857142857142854,-2.380952380952381
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,66,79.74683544303798,83.54430379746836,3.7974683544303796
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,11,16.455696202531644,13.924050632911392,-2.5316455696202533
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,0,L2 Wrong hole,2,L5 Walking,79,3,2,3.7974683544303796,2.5316455696202533,-1.2658227848101267
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,25,25.806451612903224,26.881720430107528,1.075268817204301
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,60,66.66666666666667,64.51612903225806,-2.150537634408602
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,1,L4 Changing direction,2,L5 Walking,93,7,8,7.526881720430108,8.602150537634408,1.075268817204301
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,2,L5 Walking,0,L2 Wrong hole,42,9,10,21.428571428571427,23.80952380952381,2.380952380952381
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,2,L5 Walking,1,L4 Changing direction,42,14,12,33.333333333333336,28.571428571428573,-4.761904761904762
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,2,L5 Walking,2,L5 Walking,42,19,20,45.23809523809524,47.61904761904762,2.380952380952381
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,63,79.74683544303798,79.74683544303798,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,13,16.455696202531644,16.455696202531644,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,0,L2 Wrong hole,2,L5 Walking,79,3,3,3.7974683544303796,3.7974683544303796,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,25,25.806451612903224,26.881720430107528,1.075268817204301
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,60,66.66666666666667,64.51612903225806,-2.150537634408602
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,1,L4 Changing direction,2,L5 Walking,93,7,8,7.526881720430108,8.602150537634408,1.075268817204301
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,2,L5 Walking,0,L2 Wrong hole,42,9,9,21.428571428571427,21.428571428571427,0.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,2,L5 Walking,1,L4 Changing direction,42,14,13,33.333333333333336,30.952380952380953,-2.380952380952381
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,2,L5 Walking,2,L5 Walking,42,19,20,45.23809523809524,47.61904761904762,2.380952380952381
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,63,79.74683544303798,79.74683544303798,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,13,16.455696202531644,16.455696202531644,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,0,L2 Wrong hole,2,L5 Walking,79,3,3,3.7974683544303796,3.7974683544303796,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,24,25.806451612903224,25.806451612903224,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,62,66.66666666666667,66.66666666666667,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,1,L4 Changing direction,2,L5 Walking,93,7,7,7.526881720430108,7.526881720430108,0.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,2,L5 Walking,0,L2 Wrong hole,42,9,14,21.428571428571427,33.333333333333336,11.904761904761905
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,2,L5 Walking,1,L4 Changing direction,42,14,11,33.333333333333336,26.19047619047619,-7.142857142857143
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,2,L5 Walking,2,L5 Walking,42,19,17,45.23809523809524,40.476190476190474,-4.761904761904762
+structure_no_conv,Full vs NoConv,structural_ablation,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,53,79.74683544303798,67.0886075949367,-12.658227848101266
+structure_no_conv,Full vs NoConv,structural_ablation,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,16,16.455696202531644,20.253164556962027,3.7974683544303796
+structure_no_conv,Full vs NoConv,structural_ablation,run2,0,L2 Wrong hole,2,L5 Walking,79,3,10,3.7974683544303796,12.658227848101266,8.860759493670885
+structure_no_conv,Full vs NoConv,structural_ablation,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,30,25.806451612903224,32.25806451612903,6.451612903225806
+structure_no_conv,Full vs NoConv,structural_ablation,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,42,66.66666666666667,45.16129032258065,-21.50537634408602
+structure_no_conv,Full vs NoConv,structural_ablation,run2,1,L4 Changing direction,2,L5 Walking,93,7,21,7.526881720430108,22.580645161290324,15.053763440860216
+structure_no_conv,Full vs NoConv,structural_ablation,run2,2,L5 Walking,0,L2 Wrong hole,42,9,15,21.428571428571427,35.714285714285715,14.285714285714286
+structure_no_conv,Full vs NoConv,structural_ablation,run2,2,L5 Walking,1,L4 Changing direction,42,14,3,33.333333333333336,7.142857142857143,-26.19047619047619
+structure_no_conv,Full vs NoConv,structural_ablation,run2,2,L5 Walking,2,L5 Walking,42,19,24,45.23809523809524,57.142857142857146,11.904761904761905
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,50,79.74683544303798,63.29113924050633,-16.455696202531644
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,21,16.455696202531644,26.582278481012658,10.126582278481013
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,0,L2 Wrong hole,2,L5 Walking,79,3,8,3.7974683544303796,10.126582278481013,6.329113924050633
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,15,25.806451612903224,16.129032258064516,-9.67741935483871
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,63,66.66666666666667,67.74193548387096,1.075268817204301
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,1,L4 Changing direction,2,L5 Walking,93,7,15,7.526881720430108,16.129032258064516,8.602150537634408
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,2,L5 Walking,0,L2 Wrong hole,42,9,8,21.428571428571427,19.047619047619047,-2.380952380952381
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,2,L5 Walking,1,L4 Changing direction,42,14,13,33.333333333333336,30.952380952380953,-2.380952380952381
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,2,L5 Walking,2,L5 Walking,42,19,21,45.23809523809524,50.0,4.761904761904762
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,0,L2 Wrong hole,0,L2 Wrong hole,79,63,48,79.74683544303798,60.75949367088607,-18.9873417721519
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,0,L2 Wrong hole,1,L4 Changing direction,79,13,22,16.455696202531644,27.848101265822784,11.39240506329114
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,0,L2 Wrong hole,2,L5 Walking,79,3,9,3.7974683544303796,11.39240506329114,7.594936708860759
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,1,L4 Changing direction,0,L2 Wrong hole,93,24,18,25.806451612903224,19.35483870967742,-6.451612903225806
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,1,L4 Changing direction,1,L4 Changing direction,93,62,56,66.66666666666667,60.215053763440864,-6.451612903225806
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,1,L4 Changing direction,2,L5 Walking,93,7,19,7.526881720430108,20.43010752688172,12.903225806451612
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,2,L5 Walking,0,L2 Wrong hole,42,9,6,21.428571428571427,14.285714285714286,-7.142857142857143
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,2,L5 Walking,1,L4 Changing direction,42,14,13,33.333333333333336,30.952380952380953,-2.380952380952381
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,2,L5 Walking,2,L5 Walking,42,19,23,45.23809523809524,54.76190476190476,9.523809523809524

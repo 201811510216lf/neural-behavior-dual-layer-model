@@ -1,0 +1,7 @@
+﻿source_protocol,source_model,accuracy_mean,accuracy_sd,c0_mean,c0_sd,c1_mean,c1_sd,c2_mean,c2_sd,c3_mean,c3_sd,c4_mean,c4_sd
+historical CSV 5-fold,ConvFeatureAttentionLSTM,62.89,2.02,63.41,2.86,45.1,6.87,72.92,3.16,57.7,6.83,41.0,4.64
+historical CSV 5-fold,ConvFeatureAttentionNoTimeLSTM,42.48,2.54,43.16,5.8,15.16,5.1,59.16,2.16,29.84,8.94,19.25,13.45
+historical CSV 5-fold,ConvFeatureTimeAttentionClassifier,20.88,2.82,3.8,3.7,21.57,6.62,61.57,8.19,18.36,7.86,47.25,8.46
+historical CSV 5-fold,ConvNoFeatureAttentionLSTM,64.56,1.93,67.93,2.23,44.66,6.81,73.06,3.66,50.16,6.1,36.92,12.26
+historical CSV 5-fold,NoConvFeatureAttentionLSTM,60.31,1.63,64.32,4.06,40.05,7.21,67.78,2.81,44.26,3.44,36.0,3.98
+historical CSV 5-fold,SimpleLSTMClassifier,38.88,3.81,39.0,5.25,20.28,7.34,54.48,5.63,25.57,5.54,12.75,8.79

@@ -1,0 +1,41 @@
+﻿public_method,class_id,class_name,statistic,public_value,matched_sources,match_count
+No Attention,0,hole_exploration,mean,68.52,historical text 10-fold: ConvNoFeatureAttentionLSTM,1
+No Attention,0,hole_exploration,sd,2.23,historical CSV 5-fold: ConvNoFeatureAttentionLSTM,1
+No Attention,1,wrong_hole,mean,41.23,historical text 10-fold: ConvNoFeatureAttentionLSTM,1
+No Attention,1,wrong_hole,sd,6.81,historical CSV 5-fold: ConvNoFeatureAttentionLSTM,1
+No Attention,2,hesitating,mean,79.27,historical text 10-fold: ConvNoFeatureAttentionLSTM,1
+No Attention,2,hesitating,sd,3.66,historical CSV 5-fold: ConvNoFeatureAttentionLSTM,1
+No Attention,3,changing_direction,mean,51.95,historical text 10-fold: ConvNoFeatureAttentionLSTM,1
+No Attention,3,changing_direction,sd,6.1,historical CSV 5-fold: ConvNoFeatureAttentionLSTM,1
+No Attention,4,walking,mean,46.07,historical text 10-fold: ConvNoFeatureAttentionLSTM,1
+No Attention,4,walking,sd,12.26,historical CSV 5-fold: ConvNoFeatureAttentionLSTM,1
+No Conv,0,hole_exploration,mean,44.45,historical text 10-fold: ConvFeatureAttentionNoTimeLSTM,1
+No Conv,0,hole_exploration,sd,4.06,historical CSV 5-fold: NoConvFeatureAttentionLSTM,1
+No Conv,1,wrong_hole,mean,14.6,historical text 10-fold: ConvFeatureAttentionNoTimeLSTM,1
+No Conv,1,wrong_hole,sd,7.21,historical CSV 5-fold: NoConvFeatureAttentionLSTM,1
+No Conv,2,hesitating,mean,58.38,historical text 10-fold: ConvFeatureAttentionNoTimeLSTM,1
+No Conv,2,hesitating,sd,2.81,historical CSV 5-fold: NoConvFeatureAttentionLSTM,1
+No Conv,3,changing_direction,mean,37.04,historical text 10-fold: ConvFeatureAttentionNoTimeLSTM,1
+No Conv,3,changing_direction,sd,3.44,historical CSV 5-fold: NoConvFeatureAttentionLSTM,1
+No Conv,4,walking,mean,9.29,historical text 10-fold: ConvFeatureAttentionNoTimeLSTM,1
+No Conv,4,walking,sd,3.98,historical CSV 5-fold: NoConvFeatureAttentionLSTM,1
+No LSTM,0,hole_exploration,mean,67.49,historical text 10-fold: NoConvFeatureAttentionLSTM,1
+No LSTM,0,hole_exploration,sd,3.7,historical CSV 5-fold: ConvFeatureTimeAttentionClassifier,1
+No LSTM,1,wrong_hole,mean,36.09,historical text 10-fold: NoConvFeatureAttentionLSTM,1
+No LSTM,1,wrong_hole,sd,6.62,historical CSV 5-fold: ConvFeatureTimeAttentionClassifier,1
+No LSTM,2,hesitating,mean,72.15,historical text 10-fold: NoConvFeatureAttentionLSTM,1
+No LSTM,2,hesitating,sd,8.19,historical CSV 5-fold: ConvFeatureTimeAttentionClassifier,1
+No LSTM,3,changing_direction,mean,44.44,historical text 10-fold: NoConvFeatureAttentionLSTM,1
+No LSTM,3,changing_direction,sd,7.86,historical CSV 5-fold: ConvFeatureTimeAttentionClassifier,1
+No LSTM,4,walking,mean,34.64,historical text 10-fold: NoConvFeatureAttentionLSTM,1
+No LSTM,4,walking,sd,8.46,historical CSV 5-fold: ConvFeatureTimeAttentionClassifier,1
+Full model,0,hole_exploration,mean,81.55,,0
+Full model,0,hole_exploration,sd,7.49,,0
+Full model,1,wrong_hole,mean,72.03,,0
+Full model,1,wrong_hole,sd,6.63,,0
+Full model,2,hesitating,mean,63.37,,0
+Full model,2,hesitating,sd,16.79,,0
+Full model,3,changing_direction,mean,81.91,,0
+Full model,3,changing_direction,sd,6.11,,0
+Full model,4,walking,mean,48.0,,0
+Full model,4,walking,sd,7.58,,0

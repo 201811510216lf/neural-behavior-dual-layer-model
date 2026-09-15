@@ -1,0 +1,23 @@
+﻿comparison_id,comparison_label,comparison_family,target_label,stage,evaluated_windows,affected_windows,affected_percent
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,2,run1,979,162,16.54749744637385
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,2,run2,214,24,11.214953271028037
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,3,run1,979,2,0.20429009193054137
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,3,run2,214,3,1.4018691588785046
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,5,run1,979,157,16.036772216547497
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,5,run2,214,10,4.672897196261682
+attention_zero_L2,Attention zero L2,attention_intervention,2,run1,979,162,16.54749744637385
+attention_zero_L2,Attention zero L2,attention_intervention,2,run2,214,24,11.214953271028037
+attention_zero_L3,Attention zero L3,attention_intervention,3,run1,979,2,0.20429009193054137
+attention_zero_L3,Attention zero L3,attention_intervention,3,run2,214,3,1.4018691588785046
+attention_zero_L5,Attention zero L5,attention_intervention,5,run1,979,157,16.036772216547497
+attention_zero_L5,Attention zero L5,attention_intervention,5,run2,214,10,4.672897196261682
+mask_max_L1,Maximum mask L1,input_mask,1,run1,979,13,1.3278855975485189
+mask_max_L1,Maximum mask L1,input_mask,1,run2,214,23,10.74766355140187
+mask_max_L2,Maximum mask L2,input_mask,2,run1,979,162,16.54749744637385
+mask_max_L2,Maximum mask L2,input_mask,2,run2,214,24,11.214953271028037
+mask_max_L3,Maximum mask L3,input_mask,3,run1,979,2,0.20429009193054137
+mask_max_L3,Maximum mask L3,input_mask,3,run2,214,3,1.4018691588785046
+mask_max_L4,Maximum mask L4,input_mask,4,run1,979,111,11.338100102145045
+mask_max_L4,Maximum mask L4,input_mask,4,run2,214,3,1.4018691588785046
+mask_max_L5,Maximum mask L5,input_mask,5,run1,979,157,16.036772216547497
+mask_max_L5,Maximum mask L5,input_mask,5,run2,214,10,4.672897196261682

@@ -1,0 +1,312 @@
+[
+  {
+    "file": "fig_g_mask_damage_recovery_stagewise.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_g_mask_damage_recovery_stagewise.svg",
+      "ext": "svg",
+      "size_bytes": 96011,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_g_mask_damage_recovery_stagewise.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_g_mask_damage_recovery_stagewise.pdf",
+      "ext": "pdf",
+      "size_bytes": 48704,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_g_mask_damage_recovery_stagewise.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_g_mask_damage_recovery_stagewise.png",
+      "ext": "png",
+      "size_bytes": 390389,
+      "category": "raster",
+      "size_px": [
+        4389,
+        3069
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_g_mask_damage_recovery_stagewise.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_g_mask_damage_recovery_stagewise.tiff",
+      "ext": "tiff",
+      "size_bytes": 51840206,
+      "category": "raster",
+      "size_px": [
+        4320,
+        3000
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  },
+  {
+    "file": "fig_h_structure_damage_recovery_stagewise.svg",
+    "issues": [
+      {
+        "level": "WARN",
+        "message": "SVG \u4e2d\u5305\u542b base64 \u5d4c\u5165\u7684\u4f4d\u56fe\u2014\u2014\u4f1a\u4e22\u5931\u77e2\u91cf\u4f18\u52bf\u3002\u68c0\u67e5\u662f\u5426\u5728 plot \u4e2d\u8bef\u7528\u4e86 imshow \u6216\u56fe\u50cf\u8d34\u56fe\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_h_structure_damage_recovery_stagewise.svg",
+      "ext": "svg",
+      "size_bytes": 42131,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_h_structure_damage_recovery_stagewise.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_h_structure_damage_recovery_stagewise.pdf",
+      "ext": "pdf",
+      "size_bytes": 44583,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_h_structure_damage_recovery_stagewise.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_h_structure_damage_recovery_stagewise.png",
+      "ext": "png",
+      "size_bytes": 236543,
+      "category": "raster",
+      "size_px": [
+        4389,
+        1509
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_h_structure_damage_recovery_stagewise.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_h_structure_damage_recovery_stagewise.tiff",
+      "ext": "tiff",
+      "size_bytes": 24883406,
+      "category": "raster",
+      "size_px": [
+        4320,
+        1440
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  },
+  {
+    "file": "fig_i_key_CW_WC_counts_stagewise.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_i_key_CW_WC_counts_stagewise.svg",
+      "ext": "svg",
+      "size_bytes": 24729,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_i_key_CW_WC_counts_stagewise.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_i_key_CW_WC_counts_stagewise.pdf",
+      "ext": "pdf",
+      "size_bytes": 39310,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_i_key_CW_WC_counts_stagewise.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_i_key_CW_WC_counts_stagewise.png",
+      "ext": "png",
+      "size_bytes": 148760,
+      "category": "raster",
+      "size_px": [
+        4389,
+        1689
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_i_key_CW_WC_counts_stagewise.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_i_key_CW_WC_counts_stagewise.tiff",
+      "ext": "tiff",
+      "size_bytes": 27993806,
+      "category": "raster",
+      "size_px": [
+        4320,
+        1620
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  },
+  {
+    "file": "fig_j_L2_max_confusion_stagewise.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_j_L2_max_confusion_stagewise.svg",
+      "ext": "svg",
+      "size_bytes": 71745,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_j_L2_max_confusion_stagewise.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_j_L2_max_confusion_stagewise.pdf",
+      "ext": "pdf",
+      "size_bytes": 49178,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_j_L2_max_confusion_stagewise.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_j_L2_max_confusion_stagewise.png",
+      "ext": "png",
+      "size_bytes": 402786,
+      "category": "raster",
+      "size_px": [
+        4389,
+        2727
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_j_L2_max_confusion_stagewise.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_j_L2_max_confusion_stagewise.tiff",
+      "ext": "tiff",
+      "size_bytes": 46137806,
+      "category": "raster",
+      "size_px": [
+        4320,
+        2670
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  },
+  {
+    "file": "fig_k_L5_max_confusion_stagewise.svg",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_k_L5_max_confusion_stagewise.svg",
+      "ext": "svg",
+      "size_bytes": 71746,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_k_L5_max_confusion_stagewise.pdf",
+    "issues": [
+      {
+        "level": "INFO",
+        "message": "pypdf / PyPDF2 \u672a\u5b89\u88c5\uff0c\u8df3\u8fc7\u5b57\u4f53\u5d4c\u5165\u7c7b\u578b\u68c0\u67e5\u3002pip install pypdf \u540e\u53ef\u542f\u7528\u3002"
+      }
+    ],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_k_L5_max_confusion_stagewise.pdf",
+      "ext": "pdf",
+      "size_bytes": 48916,
+      "category": "vector"
+    }
+  },
+  {
+    "file": "fig_k_L5_max_confusion_stagewise.png",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_k_L5_max_confusion_stagewise.png",
+      "ext": "png",
+      "size_bytes": 383426,
+      "category": "raster",
+      "size_px": [
+        4389,
+        2727
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  },
+  {
+    "file": "fig_k_L5_max_confusion_stagewise.tiff",
+    "issues": [],
+    "info": {
+      "path": "D:\\video\\raster\\result\\figures\\fig_k_L5_max_confusion_stagewise.tiff",
+      "ext": "tiff",
+      "size_bytes": 46137806,
+      "category": "raster",
+      "size_px": [
+        4320,
+        2670
+      ],
+      "dpi": [
+        "600.0",
+        "600.0"
+      ]
+    }
+  }
+]

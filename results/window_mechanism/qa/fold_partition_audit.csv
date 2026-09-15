@@ -1,0 +1,3 @@
+﻿stage,dataset_windows,test_rows_across_folds,unique_test_indices,duplicate_test_indices,missing_test_indices,is_exact_partition
+run1,979,979,979,0,0,True
+run2,214,214,214,0,0,True

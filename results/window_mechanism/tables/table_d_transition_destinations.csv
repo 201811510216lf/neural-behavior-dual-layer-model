@@ -1,0 +1,135 @@
+﻿comparison_id,comparison_label,comparison_family,stage,true_class,true_label,transition,other_class,other_label,count,within_transition_percent
+mask_max_L1,Maximum mask L1,input_mask,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,2,66.66666666666667
+mask_max_L1,Maximum mask L1,input_mask,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,1,33.333333333333336
+mask_max_L2,Maximum mask L2,input_mask,run1,0,L1 Hole exploration,WC_recovery,1,Gate: L2/L4/L5,1,100.0
+mask_max_L2,Maximum mask L2,input_mask,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,35,81.3953488372093
+mask_max_L2,Maximum mask L2,input_mask,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,8,18.6046511627907
+mask_max_L2,Maximum mask L2,input_mask,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,6,75.0
+mask_max_L2,Maximum mask L2,input_mask,run1,1,Gate: L2/L4/L5,WC_recovery,2,L3 Hesitating,2,25.0
+mask_max_L3,Maximum mask L3,input_mask,run1,2,L3 Hesitating,WC_recovery,1,Gate: L2/L4/L5,1,100.0
+mask_max_L4,Maximum mask L4,input_mask,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,19,86.36363636363636
+mask_max_L4,Maximum mask L4,input_mask,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,3,13.636363636363637
+mask_max_L4,Maximum mask L4,input_mask,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,6,100.0
+mask_max_L5,Maximum mask L5,input_mask,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,24,80.0
+mask_max_L5,Maximum mask L5,input_mask,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,6,20.0
+mask_max_L5,Maximum mask L5,input_mask,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,9,100.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,12,75.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,4,25.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,6,75.0
+attention_zero_L2,Attention zero L2,attention_intervention,run1,1,Gate: L2/L4/L5,WC_recovery,2,L3 Hesitating,2,25.0
+attention_zero_L5,Attention zero L5,attention_intervention,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,17,85.0
+attention_zero_L5,Attention zero L5,attention_intervention,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,3,15.0
+attention_zero_L5,Attention zero L5,attention_intervention,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,8,100.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,0,L1 Hole exploration,CW_damage,1,Gate: L2/L4/L5,2,100.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,16,39.02439024390244
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,25,60.97560975609756
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,10,90.9090909090909
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run1,1,Gate: L2/L4/L5,WC_recovery,2,L3 Hesitating,1,9.090909090909092
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run1,2,L3 Hesitating,WC_recovery,1,Gate: L2/L4/L5,1,100.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,11,31.428571428571427
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,24,68.57142857142857
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,18,94.73684210526316
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run1,1,Gate: L2/L4/L5,WC_recovery,2,L3 Hesitating,1,5.2631578947368425
+structure_no_conv,Full vs NoConv,structural_ablation,run1,0,L1 Hole exploration,CW_damage,1,Gate: L2/L4/L5,37,88.0952380952381
+structure_no_conv,Full vs NoConv,structural_ablation,run1,0,L1 Hole exploration,CW_damage,2,L3 Hesitating,5,11.904761904761905
+structure_no_conv,Full vs NoConv,structural_ablation,run1,0,L1 Hole exploration,WC_recovery,1,Gate: L2/L4/L5,39,95.1219512195122
+structure_no_conv,Full vs NoConv,structural_ablation,run1,0,L1 Hole exploration,WC_recovery,2,L3 Hesitating,2,4.878048780487805
+structure_no_conv,Full vs NoConv,structural_ablation,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,46,68.65671641791045
+structure_no_conv,Full vs NoConv,structural_ablation,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,21,31.34328358208955
+structure_no_conv,Full vs NoConv,structural_ablation,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,26,86.66666666666667
+structure_no_conv,Full vs NoConv,structural_ablation,run1,1,Gate: L2/L4/L5,WC_recovery,2,L3 Hesitating,4,13.333333333333334
+structure_no_conv,Full vs NoConv,structural_ablation,run1,2,L3 Hesitating,CW_damage,0,L1 Hole exploration,3,37.5
+structure_no_conv,Full vs NoConv,structural_ablation,run1,2,L3 Hesitating,CW_damage,1,Gate: L2/L4/L5,5,62.5
+structure_no_conv,Full vs NoConv,structural_ablation,run1,2,L3 Hesitating,WC_recovery,0,L1 Hole exploration,7,46.666666666666664
+structure_no_conv,Full vs NoConv,structural_ablation,run1,2,L3 Hesitating,WC_recovery,1,Gate: L2/L4/L5,8,53.333333333333336
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,0,L1 Hole exploration,CW_damage,1,Gate: L2/L4/L5,47,88.67924528301887
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,0,L1 Hole exploration,CW_damage,2,L3 Hesitating,6,11.320754716981131
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,0,L1 Hole exploration,WC_recovery,1,Gate: L2/L4/L5,28,87.5
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,0,L1 Hole exploration,WC_recovery,2,L3 Hesitating,4,12.5
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,58,79.45205479452055
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,15,20.54794520547945
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,29,82.85714285714286
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,1,Gate: L2/L4/L5,WC_recovery,2,L3 Hesitating,6,17.142857142857142
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,2,L3 Hesitating,CW_damage,0,L1 Hole exploration,5,33.333333333333336
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,2,L3 Hesitating,CW_damage,1,Gate: L2/L4/L5,10,66.66666666666667
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,2,L3 Hesitating,WC_recovery,0,L1 Hole exploration,6,50.0
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run1,2,L3 Hesitating,WC_recovery,1,Gate: L2/L4/L5,6,50.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,0,L1 Hole exploration,CW_damage,1,Gate: L2/L4/L5,33,94.28571428571429
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,0,L1 Hole exploration,CW_damage,2,L3 Hesitating,2,5.714285714285714
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,0,L1 Hole exploration,WC_recovery,1,Gate: L2/L4/L5,37,92.5
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,0,L1 Hole exploration,WC_recovery,2,L3 Hesitating,3,7.5
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,1,Gate: L2/L4/L5,CW_damage,0,L1 Hole exploration,40,83.33333333333333
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,1,Gate: L2/L4/L5,CW_damage,2,L3 Hesitating,8,16.666666666666668
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,1,Gate: L2/L4/L5,WC_recovery,0,L1 Hole exploration,42,93.33333333333333
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,1,Gate: L2/L4/L5,WC_recovery,2,L3 Hesitating,3,6.666666666666667
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,2,L3 Hesitating,CW_damage,0,L1 Hole exploration,3,30.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,2,L3 Hesitating,CW_damage,1,Gate: L2/L4/L5,7,70.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,2,L3 Hesitating,WC_recovery,0,L1 Hole exploration,5,35.714285714285715
+structure_no_attention,Full vs NoAttention,structural_ablation,run1,2,L3 Hesitating,WC_recovery,1,Gate: L2/L4/L5,9,64.28571428571429
+mask_max_L1,Maximum mask L1,input_mask,run2,0,L2 Wrong hole,CW_damage,1,L4 Changing direction,1,50.0
+mask_max_L1,Maximum mask L1,input_mask,run2,0,L2 Wrong hole,CW_damage,2,L5 Walking,1,50.0
+mask_max_L1,Maximum mask L1,input_mask,run2,0,L2 Wrong hole,WC_recovery,1,L4 Changing direction,1,100.0
+mask_max_L1,Maximum mask L1,input_mask,run2,1,L4 Changing direction,CW_damage,0,L2 Wrong hole,3,100.0
+mask_max_L1,Maximum mask L1,input_mask,run2,1,L4 Changing direction,WC_recovery,2,L5 Walking,1,100.0
+mask_max_L1,Maximum mask L1,input_mask,run2,2,L5 Walking,CW_damage,1,L4 Changing direction,1,100.0
+mask_max_L1,Maximum mask L1,input_mask,run2,2,L5 Walking,WC_recovery,0,L2 Wrong hole,1,100.0
+mask_max_L2,Maximum mask L2,input_mask,run2,0,L2 Wrong hole,CW_damage,2,L5 Walking,2,100.0
+mask_max_L2,Maximum mask L2,input_mask,run2,0,L2 Wrong hole,WC_recovery,1,L4 Changing direction,2,66.66666666666667
+mask_max_L2,Maximum mask L2,input_mask,run2,0,L2 Wrong hole,WC_recovery,2,L5 Walking,1,33.333333333333336
+mask_max_L3,Maximum mask L3,input_mask,run2,1,L4 Changing direction,CW_damage,0,L2 Wrong hole,1,50.0
+mask_max_L3,Maximum mask L3,input_mask,run2,1,L4 Changing direction,CW_damage,2,L5 Walking,1,50.0
+mask_max_L4,Maximum mask L4,input_mask,run2,0,L2 Wrong hole,CW_damage,2,L5 Walking,1,100.0
+mask_max_L4,Maximum mask L4,input_mask,run2,0,L2 Wrong hole,WC_recovery,1,L4 Changing direction,2,100.0
+mask_max_L5,Maximum mask L5,input_mask,run2,2,L5 Walking,CW_damage,0,L2 Wrong hole,2,66.66666666666667
+mask_max_L5,Maximum mask L5,input_mask,run2,2,L5 Walking,CW_damage,1,L4 Changing direction,1,33.333333333333336
+attention_zero_L2,Attention zero L2,attention_intervention,run2,0,L2 Wrong hole,CW_damage,1,L4 Changing direction,1,100.0
+attention_zero_L2,Attention zero L2,attention_intervention,run2,0,L2 Wrong hole,WC_recovery,1,L4 Changing direction,2,50.0
+attention_zero_L2,Attention zero L2,attention_intervention,run2,0,L2 Wrong hole,WC_recovery,2,L5 Walking,2,50.0
+attention_zero_L2,Attention zero L2,attention_intervention,run2,1,L4 Changing direction,WC_recovery,0,L2 Wrong hole,1,100.0
+attention_zero_L3,Attention zero L3,attention_intervention,run2,1,L4 Changing direction,CW_damage,2,L5 Walking,1,100.0
+attention_zero_L5,Attention zero L5,attention_intervention,run2,2,L5 Walking,CW_damage,1,L4 Changing direction,1,100.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,0,L2 Wrong hole,CW_damage,1,L4 Changing direction,1,100.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,0,L2 Wrong hole,WC_recovery,1,L4 Changing direction,2,50.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,0,L2 Wrong hole,WC_recovery,2,L5 Walking,2,50.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,1,L4 Changing direction,CW_damage,0,L2 Wrong hole,1,50.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,1,L4 Changing direction,CW_damage,2,L5 Walking,1,50.0
+attention_shuffle_L2,Attention shuffle L2,attention_intervention,run2,2,L5 Walking,WC_recovery,1,L4 Changing direction,1,100.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,1,L4 Changing direction,CW_damage,0,L2 Wrong hole,1,50.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,1,L4 Changing direction,CW_damage,2,L5 Walking,1,50.0
+attention_shuffle_L3,Attention shuffle L3,attention_intervention,run2,2,L5 Walking,WC_recovery,1,L4 Changing direction,1,100.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,2,L5 Walking,CW_damage,0,L2 Wrong hole,3,75.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,2,L5 Walking,CW_damage,1,L4 Changing direction,1,25.0
+attention_shuffle_L5,Attention shuffle L5,attention_intervention,run2,2,L5 Walking,WC_recovery,1,L4 Changing direction,2,100.0
+structure_no_conv,Full vs NoConv,structural_ablation,run2,0,L2 Wrong hole,CW_damage,1,L4 Changing direction,8,44.44444444444444
+structure_no_conv,Full vs NoConv,structural_ablation,run2,0,L2 Wrong hole,CW_damage,2,L5 Walking,10,55.55555555555556
+structure_no_conv,Full vs NoConv,structural_ablation,run2,0,L2 Wrong hole,WC_recovery,1,L4 Changing direction,5,62.5
+structure_no_conv,Full vs NoConv,structural_ablation,run2,0,L2 Wrong hole,WC_recovery,2,L5 Walking,3,37.5
+structure_no_conv,Full vs NoConv,structural_ablation,run2,1,L4 Changing direction,CW_damage,0,L2 Wrong hole,18,66.66666666666667
+structure_no_conv,Full vs NoConv,structural_ablation,run2,1,L4 Changing direction,CW_damage,2,L5 Walking,9,33.333333333333336
+structure_no_conv,Full vs NoConv,structural_ablation,run2,1,L4 Changing direction,WC_recovery,0,L2 Wrong hole,5,71.42857142857143
+structure_no_conv,Full vs NoConv,structural_ablation,run2,1,L4 Changing direction,WC_recovery,2,L5 Walking,2,28.571428571428573
+structure_no_conv,Full vs NoConv,structural_ablation,run2,2,L5 Walking,CW_damage,0,L2 Wrong hole,4,100.0
+structure_no_conv,Full vs NoConv,structural_ablation,run2,2,L5 Walking,WC_recovery,0,L2 Wrong hole,3,33.333333333333336
+structure_no_conv,Full vs NoConv,structural_ablation,run2,2,L5 Walking,WC_recovery,1,L4 Changing direction,6,66.66666666666667
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,0,L2 Wrong hole,CW_damage,1,L4 Changing direction,14,73.6842105263158
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,0,L2 Wrong hole,CW_damage,2,L5 Walking,5,26.31578947368421
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,0,L2 Wrong hole,WC_recovery,1,L4 Changing direction,6,100.0
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,1,L4 Changing direction,CW_damage,0,L2 Wrong hole,5,50.0
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,1,L4 Changing direction,CW_damage,2,L5 Walking,5,50.0
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,1,L4 Changing direction,WC_recovery,0,L2 Wrong hole,10,90.9090909090909
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,1,L4 Changing direction,WC_recovery,2,L5 Walking,1,9.090909090909092
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,2,L5 Walking,CW_damage,1,L4 Changing direction,5,100.0
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,2,L5 Walking,WC_recovery,0,L2 Wrong hole,1,14.285714285714286
+structure_no_lstm,Full vs NoLSTM,structural_ablation,run2,2,L5 Walking,WC_recovery,1,L4 Changing direction,6,85.71428571428571
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,0,L2 Wrong hole,CW_damage,1,L4 Changing direction,13,65.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,0,L2 Wrong hole,CW_damage,2,L5 Walking,7,35.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,0,L2 Wrong hole,WC_recovery,1,L4 Changing direction,4,80.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,0,L2 Wrong hole,WC_recovery,2,L5 Walking,1,20.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,1,L4 Changing direction,CW_damage,0,L2 Wrong hole,7,43.75
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,1,L4 Changing direction,CW_damage,2,L5 Walking,9,56.25
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,1,L4 Changing direction,WC_recovery,0,L2 Wrong hole,8,80.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,1,L4 Changing direction,WC_recovery,2,L5 Walking,2,20.0
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,2,L5 Walking,CW_damage,0,L2 Wrong hole,1,33.333333333333336
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,2,L5 Walking,CW_damage,1,L4 Changing direction,2,66.66666666666667
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,2,L5 Walking,WC_recovery,0,L2 Wrong hole,3,42.857142857142854
+structure_no_attention,Full vs NoAttention,structural_ablation,run2,2,L5 Walking,WC_recovery,1,L4 Changing direction,4,57.142857142857146

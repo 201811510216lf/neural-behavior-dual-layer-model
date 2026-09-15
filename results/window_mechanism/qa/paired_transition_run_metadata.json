@@ -1,0 +1,30 @@
+{
+  "analysis_type": "inference-only paired stage-wise transition audit",
+  "python_environment_required": "C:\\Users\\LDaC\\.conda\\envs\\pytorch-GPU",
+  "n_prediction_rows": 16702,
+  "n_unique_stage_samples": 1193,
+  "comparisons": 14,
+  "max_absolute_reproduction_difference": 7.105427357601002e-15,
+  "stage_partition_audit": [
+    {
+      "stage": "run1",
+      "dataset_windows": 979,
+      "test_rows_across_folds": 979,
+      "unique_test_indices": 979,
+      "duplicate_test_indices": 0,
+      "missing_test_indices": 0,
+      "is_exact_partition": true
+    },
+    {
+      "stage": "run2",
+      "dataset_windows": 214,
+      "test_rows_across_folds": 214,
+      "unique_test_indices": 214,
+      "duplicate_test_indices": 0,
+      "missing_test_indices": 0,
+      "is_exact_partition": true
+    }
+  ],
+  "statistical_warning": "McNemar exact p values are exploratory because legacy 5-s windows overlap by 50%; window rows are not independent biological replicates.",
+  "hierarchy_warning": "Run1 and Run2 use different constructed window sets. No synthetic five-class sample-level confusion matrix is produced."
+}

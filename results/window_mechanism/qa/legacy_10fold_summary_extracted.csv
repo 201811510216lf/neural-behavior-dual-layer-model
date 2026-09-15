@@ -1,0 +1,7 @@
+﻿source_protocol,source_model,accuracy_mean,accuracy_sd,c0_mean,c0_sd,c1_mean,c1_sd,c2_mean,c2_sd,c3_mean,c3_sd,c4_mean,c4_sd
+historical text 10-fold,ConvNoFeatureAttentionLSTM,66.44,3.17,68.52,3.84,41.23,10.29,79.27,2.95,51.95,6.88,46.07,17.8
+historical text 10-fold,ConvFeatureAttentionNoTimeLSTM,43.5,3.67,44.45,5.47,14.6,7.95,58.38,10.36,37.04,9.64,9.29,8.85
+historical text 10-fold,NoConvFeatureAttentionLSTM,62.76,2.07,67.49,2.45,36.09,7.4,72.15,4.29,44.44,8.76,34.64,19.43
+historical text 10-fold,SimpleLSTMClassifier,42.72,3.33,43.13,4.14,15.85,5.63,62.02,8.72,26.26,9.56,15.18,12.22
+historical text 10-fold,ConvFeatureTimeAttentionClassifier,21.34,1.54,2.77,2.02,20.62,9.27,64.78,7.87,20.45,5.44,53.57,14.94
+historical text 10-fold,ConvFeatureAttentionLSTM,66.89,3.31,68.51,5.2,46.83,11.11,76.85,4.96,57.75,10.7,43.57,20.16

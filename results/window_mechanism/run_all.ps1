@@ -10,4 +10,13 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 & $PythonExe (Join-Path $Here 'build_figures.py')
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+& $PythonExe (Join-Path $Here 'run_paired_transition_analysis.py')
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+& $PythonExe (Join-Path $Here 'audit_legacy_result_consistency.py')
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+& $PythonExe (Join-Path $Here 'build_transition_figures.py')
 exit $LASTEXITCODE
