@@ -16,6 +16,7 @@ This index maps the group-meeting presentation to the public release.
 | LSTM shuffle | `results/masking/lstm_shuffle_*` | 50, 100, and 200 ms block-order perturbations used in the presentation |
 | Additional neural-model analyses | `results/association/` | Baseline reproduction, RSA, CKA, decision geometry, overlap dependence, and functional interventions |
 | Window × behavior and architecture interactions | `results/window_mechanism/` | Figures A–D and Supplementary Figure E, fold-level aggregate source data, exact sign-flip/FDR tables, 500-repeat matched-null controls, and reproducible code |
+| 2026-09-21 presentation captions | `docs/GROUP_MEETING_2026-09-21_CAPTIONS.md` | Slide-by-slide figure legends, table titles, statistical wording, and interpretation safeguards |
 
 ## Main result snapshots
 
