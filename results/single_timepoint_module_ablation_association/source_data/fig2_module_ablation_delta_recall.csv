@@ -1,0 +1,16 @@
+﻿effect_type,effect_id,module,target_label,time_s,behavior,behavior_label,delta_recall_pp,delta_sign
+module_ablation_clean,no_conv,no_conv,,,1,L1,-0.24875621890546995,-
+module_ablation_clean,no_conv,no_conv,,,2,L2,-10.30108212125755,-
+module_ablation_clean,no_conv,no_conv,,,3,L3,5.752032520325216,+
+module_ablation_clean,no_conv,no_conv,,,4,L4,-14.809705715902673,-
+module_ablation_clean,no_conv,no_conv,,,5,L5,1.8953634085213054,+
+module_ablation_clean,no_lstm,no_lstm,,,1,L1,-5.223880597014926,-
+module_ablation_clean,no_lstm,no_lstm,,,2,L2,-12.357549857549856,-
+module_ablation_clean,no_lstm,no_lstm,,,3,L3,-2.520325203252014,-
+module_ablation_clean,no_lstm,no_lstm,,,4,L4,-3.6290322580645267,-
+module_ablation_clean,no_lstm,no_lstm,,,5,L5,-1.7857142857142847,-
+module_ablation_clean,no_attention,no_attention,,,1,L1,1.243781094527364,+
+module_ablation_clean,no_attention,no_attention,,,2,L2,-9.778140150947166,-
+module_ablation_clean,no_attention,no_attention,,,3,L3,3.2520325203252156,+
+module_ablation_clean,no_attention,no_attention,,,4,L4,-3.554753820033966,-
+module_ablation_clean,no_attention,no_attention,,,5,L5,4.432957393483704,+

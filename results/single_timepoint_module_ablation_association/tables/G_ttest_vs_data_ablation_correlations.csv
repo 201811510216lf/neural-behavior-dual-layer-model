@@ -1,0 +1,7 @@
+﻿x,y,pearson,spearman,n_timepoints,inference
+t_stat,target_behavior_delta_recall_pp,-0.007703851355747998,-0.056794015341815815,24,exploratory coefficient only; no independent-window p-value
+abs_t_stat,abs_target_behavior_delta_recall_pp,0.12394200134650679,0.32328901040725916,24,exploratory coefficient only; no independent-window p-value
+t_stat,target_sample_mean_delta_ptrue,0.42908934723270037,0.29206908057185194,24,exploratory coefficient only; no independent-window p-value
+abs_t_stat,abs_target_sample_mean_delta_ptrue,0.15931502350758836,0.13129710961486923,24,exploratory coefficient only; no independent-window p-value
+t_stat,target_sample_mean_delta_margin,0.4846871512969084,0.23311935788762497,24,exploratory coefficient only; no independent-window p-value
+abs_t_stat,abs_target_sample_mean_delta_margin,0.09078020462874185,0.13308346484772457,24,exploratory coefficient only; no independent-window p-value

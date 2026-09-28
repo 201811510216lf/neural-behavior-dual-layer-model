@@ -1,0 +1,11 @@
+﻿stage,label,x_equal_to_existing_segment_replacement,y_equal_to_existing_segment_replacement,union_of_point_masks_equals_existing_label_mask,n_windows
+run1,1,True,True,True,979
+run1,2,True,True,True,979
+run1,3,True,True,True,979
+run1,4,True,True,True,979
+run1,5,True,True,True,979
+run2,1,True,True,True,214
+run2,2,True,True,True,214
+run2,3,True,True,True,214
+run2,4,True,True,True,214
+run2,5,True,True,True,214

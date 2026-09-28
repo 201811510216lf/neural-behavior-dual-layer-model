@@ -2,7 +2,7 @@
 
 This repository is a public, data-free release of a mouse Barnes-maze neural decoding project. It contains the two-stage Conv-LSTM-Attention model, classical model comparisons, structural ablations, behavior-aligned group-difference figures, masking and perturbation experiments, and neural-model representation analyses.
 
-本仓库是该项目的公开整理版。它保留模型代码、汇总结果和最终图片，但不包含海马脑区原始电生理数据、10 ms/bin 后的数据、行为标签文件、逐样本预测、模型权重或动物级明细表。
+本仓库是该项目的公开整理版。它保留模型代码、汇总结果和最终图片，但不包含海马脑区原始电生理数据、10 ms/bin 后的神经特征表、行为标签源文件、模型权重或动物分组明细表。`results/single_timepoint_module_ablation_association/` 额外公开了匿名化 recording 标识下的逐窗口冻结模型推理结果，以支持本次消融关联分析的完全复核；其中不含原始神经输入。
 
 ## Main model
 
@@ -24,6 +24,7 @@ Each stage uses temporal convolution, a two-layer LSTM, temporal attention, and 
 - `results/masking`: maximum, mean, and minimum segment replacement; attention shuffling and zeroing; convolution mean replacement; and 50/100/200 ms LSTM shuffling.
 - `results/association`: RSA, CKA, decision-geometry, overlap, and frozen-model intervention results.
 - `results/window_mechanism`: the L2/L3/L5 window-by-behavior heatmap, architecture-by-perturbation interactions, mechanism contrasts, 500-repeat random-window nulls, L3 Drop/Keep diagnostic, and the stage-wise paired prediction-transition audit (aggregate CC/CW/WC/WW tables, damage/recovery heatmaps, and confusion-matrix deltas). Individual predictions remain private and are not included.
+- `results/single_timepoint_module_ablation_association`: a frozen-model, coherent-three-fold analysis connecting 24 point-wise maximum-replacement masks with NoConv, NoLSTM, and NoAttention ablations. It includes complete stage-wise OOF predictions, A–G association tables, double-ablation interactions, figure source data, paper-ready figures, workbook, QA, checkpoint hashes, and executable analysis code.
 - `figures/raster_examples`: one full raster figure per recording. These are derived figures only; the source spike and label tables are not included.
 
 The reproduced legacy baseline was:
@@ -77,3 +78,5 @@ See [EXPERIMENT_INDEX.md](docs/EXPERIMENT_INDEX.md) for the mapping between pres
 The newest window-mechanism conclusions are summarized in Chinese at [`results/window_mechanism/RESULTS_SUMMARY_CN.md`](results/window_mechanism/RESULTS_SUMMARY_CN.md). The matched-null analysis does not support original L2/L5 time-position specificity, so the large replacement effects should be reported as fitted-model sensitivity rather than localized causal evidence.
 
 The historical structural-ablation Table 5 should not be combined with the current three-fold masking baseline. A cell-level provenance audit found that its means and standard deviations mix five-fold and ten-fold summaries and, for some rows, different model classes. Use the coherent three-fold structural table and the stage-wise transition outputs under `results/window_mechanism` for current reporting; retain the older table only as a historical artifact.
+
+The newest 24-timepoint × module-ablation analysis is documented at [`results/single_timepoint_module_ablation_association/README.md`](results/single_timepoint_module_ablation_association/README.md). It uses only frozen checkpoints and the saved legacy test splits; it does not retrain or repartition any model data.

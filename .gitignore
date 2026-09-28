@@ -17,9 +17,12 @@ checkpoints/
 *.docx
 *.ppt
 *.pptx
+
+# Public source-data exceptions for the frozen-model point-wise/module analysis.
+!results/single_timepoint_module_ablation_association/paper_tables.xlsx
+!results/single_timepoint_module_ablation_association/source_data/*.csv.gz
 __pycache__/
 *.pyc
 .idea/
 .vscode/
 .DS_Store
-

@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "training_performed": false,
+  "n_timepoints": 24,
+  "architectures": [
+    "full",
+    "no_conv",
+    "no_lstm",
+    "no_attention"
+  ],
+  "stages": [
+    "run1",
+    "run2"
+  ],
+  "folds": [
+    "fold01",
+    "fold02",
+    "fold03"
+  ],
+  "prediction_rows": 119300,
+  "paired_prediction_rows": 204003,
+  "figures": [
+    "fig1_data_ablation_delta_recall_heatmap.png",
+    "fig2_module_ablation_delta_recall_heatmap.png",
+    "fig3_timepoint_module_recall_correlation_heatmap.png",
+    "fig4_cw_damage_set_jaccard_heatmap.png",
+    "fig5_delta_fp_fn_heatmaps.png",
+    "fig6_double_ablation_interaction_heatmap.png",
+    "fig7_selected_strong_pairs_delta_ptrue_scatter.png",
+    "fig8_mask_overlap_heatmap.png"
+  ]
+}

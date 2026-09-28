@@ -1,0 +1,7 @@
+﻿stage,fold,saved_prediction_file,indices_equal,truth_equal,predictions_equal,max_probability_abs_diff,probability_abs_tolerance,pass
+run1,fold01,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\pred_run1_fold01__on_fold_valid.csv,True,True,True,4.410743713378906e-06,2e-05,True
+run1,fold02,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\pred_run1_fold02__on_fold_valid.csv,True,True,True,3.218650817926605e-06,2e-05,True
+run1,fold03,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\pred_run1_fold03__on_fold_valid.csv,True,True,True,3.993511199951172e-06,2e-05,True
+run2,fold01,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\pred_run2_fold01__on_fold_valid.csv,True,True,True,3.3080577849786685e-06,2e-05,True
+run2,fold02,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\pred_run2_fold02__on_fold_valid.csv,True,True,True,4.0531158447265625e-06,2e-05,True
+run2,fold03,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\pred_run2_fold03__on_fold_valid.csv,True,True,True,1.3113021850585938e-06,2e-05,True

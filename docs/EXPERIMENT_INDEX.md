@@ -16,6 +16,7 @@ This index maps the group-meeting presentation to the public release.
 | LSTM shuffle | `results/masking/lstm_shuffle_*` | 50, 100, and 200 ms block-order perturbations used in the presentation |
 | Additional neural-model analyses | `results/association/` | Baseline reproduction, RSA, CKA, decision geometry, overlap dependence, and functional interventions |
 | Window × behavior and architecture interactions | `results/window_mechanism/` | Figures A–D and Supplementary Figure E, fold-level aggregate source data, exact sign-flip/FDR tables, 500-repeat matched-null controls, and reproducible code |
+| Point-wise data ablation × module ablation | `results/single_timepoint_module_ablation_association/` | 24 point masks, NoConv/NoLSTM/NoAttention, matched OOF samples, A–G associations, double-ablation interactions, complete source data, QA, and paper-ready figures |
 | 2026-09-21 presentation captions | `docs/GROUP_MEETING_2026-09-21_CAPTIONS.md` | Slide-by-slide figure legends, table titles, statistical wording, and interpretation safeguards |
 
 ## Main result snapshots
@@ -34,3 +35,7 @@ Maximum replacement caused the clearest decrease among the value-replacement tes
 ## Updated matched-null conclusion
 
 The new exact-mask circular-shift controls preserve the geometry and bin count of each selected mask. Across L2, L3, and L5, none of the observed maximum-replacement effects was more extreme than this null in any fold. The architecture interaction tests were also non-significant after BH-FDR correction (all q = 1.0). These results retain the perturbation effects as useful exploratory sensitivity findings but do not support a claim that the originally selected time positions are uniquely causal.
+
+## Point-wise × module-ablation update
+
+The 24-timepoint analysis keeps the legacy 5 s / 10 ms / 500-bin / 250-bin-step protocol, reuses the same three-fold test indices, and performs frozen-model inference only. Its strongest single point-wise recall effect was L5 +0.70 s on L5 (-6.313 percentage points), while the largest structural recall effect was NoConv on L4 (-14.810 percentage points). The strongest five-behavior recall-vector Spearman correlation was 0.821, but the largest pooled CW damage-set Jaccard was only 0.065 and the largest sample-level Spearman correlation was 0.154. Similarity, double-ablation interaction, and biological causality are therefore reported as separate evidential layers.

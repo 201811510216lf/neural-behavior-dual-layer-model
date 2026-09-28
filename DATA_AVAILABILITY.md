@@ -9,7 +9,7 @@ This public repository intentionally excludes:
 - behavior-label files and manual labeling workbooks;
 - 10 ms binned, aligned, or normalized neural tables;
 - animal-level grouping spreadsheets and per-recording statistical tables;
-- per-window predictions, fold membership manifests, model checkpoints, and intermediate arrays.
+- model checkpoints, raw fold-construction inputs, and intermediate neural arrays.
 
 These exclusions are enforced both by whitelist-based repository assembly and by `.gitignore` patterns.
 
@@ -39,4 +39,6 @@ The training pipeline removes label 0, converts labels 1–5 to classes 0–4, c
 
 ## Public artifacts
 
-Only aggregate metrics, fold-level performance summaries without animal or recording identifiers, explanatory documents, selected p-value figures, raster images, randomization-null summaries, and source code are public. The raster and group-difference figures are static derived outputs and cannot be used as drop-in replacements for the omitted numerical tables. The `results/window_mechanism/` bundle contains no checkpoints, aligned bins, labels, per-window predictions, or animal-level rows.
+Most public result bundles contain only aggregate metrics, fold-level performance summaries, explanatory documents, selected p-value figures, raster images, randomization-null summaries, and source code. The raster and group-difference figures are static derived outputs and cannot be used as drop-in replacements for the omitted numerical tables. The `results/window_mechanism/` bundle contains no checkpoints, aligned bins, labels, per-window predictions, or animal-level rows.
+
+The later `results/single_timepoint_module_ablation_association/` bundle is a deliberate reproducibility exception: it includes per-window out-of-fold predictions, saved fold labels, window-bin coordinates, and pseudonymous recording filenames for the frozen-model analysis. It still excludes raw/binned neural features, behavior-label source tables, animal grouping metadata, and model checkpoint contents. Checkpoint paths and SHA-256 hashes are retained only as provenance records.

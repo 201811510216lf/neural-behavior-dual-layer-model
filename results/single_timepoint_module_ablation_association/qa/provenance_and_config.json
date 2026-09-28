@@ -1,0 +1,155 @@
+{
+  "analysis_script": "D:\\video\\outputs\\single_timepoint_module_ablation_association\\run_analysis.py",
+  "analysis_script_sha256": "5e5c0cfa4b287c0e5607e427ea86c5e3dd880812292f9bc27df379137ff45470",
+  "analysis_output_root": "D:\\video\\outputs\\single_timepoint_module_ablation_association",
+  "source_workbook": "D:\\video\\outputs\\regroup_1246_vs_35_label_timepoint_ttest_bigtable\\regroup_1246_vs_35_label_timepoint_ttest_bigtable.xlsx",
+  "source_workbook_sha256": "f570e6d7df33b94f4d2a9761095d11a2d153ee57c729b5dc5b5b3408276c9d86",
+  "data_directory": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables",
+  "data_files": [
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment2_22_aligned.csv.gz",
+      "sha256": "6c6264fd0c8766a61c2ca708eb2c6991f7591e22955c8e62cda8b8304fba4472"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment3_3_aligned.csv.gz",
+      "sha256": "a857cfb57c981a3bad1a43f3fe85ab9ad85f0c608ee766e0ec4ed2b9f88433af"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment3_23_aligned.csv.gz",
+      "sha256": "2b04387364b2433c85e296a386a4e2a37ada4a9cea7d77df4e724978603ab328"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment3_38_aligned.csv.gz",
+      "sha256": "afa4bf746245b02224da76a67245eb83185e40fe88639829893ff9c3ee7ce8a0"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment4_24_aligned.csv.gz",
+      "sha256": "6e772ce16da385f2f22127afb0a4b1db4d9d35164dac83ec50a4c2df481ea1f3"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment5_6_aligned.csv.gz",
+      "sha256": "863c45aadd9800424dfbc8ef6ec0e736a2954a1143dc2aac85895d353a43a2be"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment5_26_aligned.csv.gz",
+      "sha256": "c3d4b13c0d86d7973ee42f63d826f2b4483e5ad7cbb4e0468eecd1aa651b06f3"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment6_7_aligned.csv.gz",
+      "sha256": "808a70ec142ca19330244cd92a11f1c319d7be0a8eb36ae3f013796a508f4cb3"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment7_8_aligned.csv.gz",
+      "sha256": "c597c8687416d5ee55cdd710f5d8cb7ff7194ebd3324652d6431b6856f649eb2"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment7_27_aligned.csv.gz",
+      "sha256": "b9319e7fbd1e802cfa234931b2b260f44405ee1ef926d6849d143e24c3057593"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment8_31_aligned.csv.gz",
+      "sha256": "a5ad86b84689707292a37ad5efd9b097f1c2f859693167cbb31dbaecc2eb5ba1"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment9_9_aligned.csv.gz",
+      "sha256": "02216d90787ce3c7d27a41d9f3b955e44166a0719c987765d5f8317ece4a9841"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment9_33_aligned.csv.gz",
+      "sha256": "f38f9c2cfca8fe17cda1e19de518432bf854787e74ad332d0cfc50b01c1b15ab"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment10_34_aligned.csv.gz",
+      "sha256": "949c400e28489f22fb375f605d833db7ceec8ee47f7e60adf1b38e51784f33ca"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment11_10_aligned.csv.gz",
+      "sha256": "d53ba6d58396e23cd8e99ae5db20d544e9b92b61f651e80b673806a8f701d610"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment11_35_aligned.csv.gz",
+      "sha256": "6566dbd0e29fd60b46b34bde6bfe6fff7db4eebf0f5340315626856edde469d4"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment12_11_aligned.csv.gz",
+      "sha256": "f1da4b17c6bf5a9d6e4a635e14418bf002d5d5acf9ea4770d3b53761c645ab7f"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment12_36_aligned.csv.gz",
+      "sha256": "c781a4ed608096092885394aab90af323a16a517a30ebff26b97ef7675ad6771"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment13_12_aligned.csv.gz",
+      "sha256": "3a2b874490785c3c49fc20a2973b3479ed8afe85ea0ca64613535b799e71f569"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment15_13_aligned.csv.gz",
+      "sha256": "fd6cc98b2e2097cf5ad78908add293605804dab10dee4530044b764d08351710"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment16_14_aligned.csv.gz",
+      "sha256": "25080c18c2edac3b9dd431d013967fb57827321d47401efbc40b00afa94c5af2"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment18_16_aligned.csv.gz",
+      "sha256": "d4c80afdeff011e5d8129682945c105fed64c882cac5c6ff7c6c584c1fa79914"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment19_17_aligned.csv.gz",
+      "sha256": "c4f1da2e3be062476ecb88a74561c219ab0c24cde9f50b0e77b2edbde11f20ad"
+    },
+    {
+      "path": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\data\\aligned_tables\\experiment21_21_aligned.csv.gz",
+      "sha256": "4514e89d7eda5372b1c91b139cd0bf64afb51b22d3609d423941e77a4492941c"
+    }
+  ],
+  "legacy_model_directory": "D:\\video\\raster\\brain_model_regroup_1246_vs_35_fixed\\outputs_legacy",
+  "checkpoint_manifest": "D:\\video\\outputs\\single_timepoint_module_ablation_association\\qa\\checkpoint_manifest_sha256.csv",
+  "code_commit": {
+    "workspace_D_video": null,
+    "workspace_note": "D:/video/.git contains no usable Git repository metadata",
+    "nearby_repository": "D:\\video\\neural-behavior-dual-layer-model",
+    "nearby_repository_commit": "7caa71b1a757c570e5ad0c505e386fdbb625535b",
+    "nearby_repository_note": "Recorded for context only; analysis executed from D:/video/raster and this output directory."
+  },
+  "protocol": {
+    "window_seconds": 5.0,
+    "bin_ms": 10,
+    "window_bins": 500,
+    "step_bins": 250,
+    "stage_label_constant": true,
+    "mask_interval": "[center-1s, center+1s), clipped inside each 5-s window",
+    "replacement": "per-channel maximum of the original unmodified 5-s window",
+    "delta_definition": "ablated - baseline",
+    "training_performed": false,
+    "inference_device": "cpu (chosen to reproduce archived probability vectors)"
+  },
+  "environment": {
+    "python": "3.9.21 (main, Dec 11 2024, 16:35:24) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "1.13.0",
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "numpy": "1.23.5",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1",
+    "sklearn": "1.3.0",
+    "matplotlib": "3.7.1"
+  },
+  "datasets": {
+    "run1": {
+      "n_windows": 979,
+      "n_neural_channels": 12,
+      "window_bins": 500,
+      "n_mixed_recording_windows": 3,
+      "n_discontinuous_windows": 6
+    },
+    "run2": {
+      "n_windows": 214,
+      "n_neural_channels": 12,
+      "window_bins": 500,
+      "n_mixed_recording_windows": 9,
+      "n_discontinuous_windows": 15
+    }
+  }
+}
