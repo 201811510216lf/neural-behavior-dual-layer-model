@@ -1,0 +1,35 @@
+{
+  "analysis_script": "D:\\video\\outputs\\multi_mask_module_ablation_association\\run_multi_mask_analysis.py",
+  "analysis_script_sha256": "64d82018cd4b32887976e382fdb56de19b1fff96b9f1eb28cc52ca6d249755af",
+  "single_analysis_root": "D:\\video\\outputs\\single_timepoint_module_ablation_association",
+  "single_analysis_script_sha256": "5e5c0cfa4b287c0e5607e427ea86c5e3dd880812292f9bc27df379137ff45470",
+  "repository_commit_at_analysis_start": "e96ff918757361e612dbd5936596f5ebf8546f37",
+  "training_performed": false,
+  "resplitting_performed": false,
+  "n_pairs": 8,
+  "n_triples": 2,
+  "triple_gate_passed": true,
+  "random_null_repeats": 500,
+  "protocol": {
+    "window_seconds": 5,
+    "bin_ms": 10,
+    "window_bins": 500,
+    "step_bins": 250,
+    "stage_label_constant": true,
+    "mask_interval": "[center-1s,center+1s), clipped",
+    "multi_mask": "Boolean union on original clean window, one replacement pass",
+    "replacement": "per-channel maximum of original unmodified window",
+    "delta": "ablated-baseline",
+    "real_device": "cpu",
+    "null_device": "cuda after exact class validation"
+  },
+  "environment": {
+    "python": "3.9.21 (main, Dec 11 2024, 16:35:24) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "1.13.0",
+    "cuda": true,
+    "cuda_device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "numpy": "1.23.5",
+    "pandas": "1.5.3"
+  }
+}

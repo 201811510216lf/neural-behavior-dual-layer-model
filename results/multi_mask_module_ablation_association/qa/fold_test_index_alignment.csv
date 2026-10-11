@@ -1,0 +1,9 @@
+﻿stage,fold,n_test,n_unique_test,within_fold_unique,min_index,max_index,split_file,split_sha256,used_by_all_architectures
+run1,fold01,327,327,True,0,978,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\fold_split_run1_fold01.json,928f791279a627891ba35b7a71b42fe1ddc64111567fe53c93a178d8a8024ad6,True
+run1,fold02,326,326,True,5,973,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\fold_split_run1_fold02.json,6fa55f0ce1797ca204fa872e1e96517fdd5e1fbf94b0b76f32fe056247581c07,True
+run1,fold03,326,326,True,2,977,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\fold_split_run1_fold03.json,9d635dc7628934f84388ec882a25b97f0660b132ea9a1998e47a50903d6d3f84,True
+run1,ALL,979,979,True,0,978,three saved split files,,True
+run2,fold01,72,72,True,2,212,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\fold_split_run2_fold01.json,c0922a02bd249d38c56ab9b5406161e11b3965f888019facabb228f6fee15b34,True
+run2,fold02,71,71,True,0,211,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\fold_split_run2_fold02.json,66737b2a04cc3edcb93ac65b0f3f5369dd8f8efd34fbf0f58b61678eb8ad7af0,True
+run2,fold03,71,71,True,1,213,D:\video\raster\brain_model_regroup_1246_vs_35_fixed\outputs_legacy\fold_split_run2_fold03.json,a98ca27c4ddaa6f90a2e5817893fe24247ae223cdc797c6629d2c4cccec5f7a6,True
+run2,ALL,214,214,True,0,213,three saved split files,,True

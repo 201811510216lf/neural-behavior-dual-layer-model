@@ -1,0 +1,11 @@
+﻿condition_id,mask_order,selection_rule,constituent_ids_json,region_1,region_1_label,region_1_time_s,region_1_condition_index,region_2,region_2_label,region_2_time_s,region_2_condition_index,region_3,region_3_label,region_3_time_s,region_3_condition_index,display_label
+PAIR__L1_m0p69__L3_m0p08,2,recommended_cross_behavior,"[""tp01_L1_m0p69"", ""tp08_L3_m0p08""]",tp01_L1_m0p69,1,-0.69,0,tp08_L3_m0p08,3,-0.08,7,,,,,L1 -0.69s + L3 -0.08s
+PAIR__L1_m0p69__L2_p0p06,2,recommended_cross_behavior,"[""tp01_L1_m0p69"", ""tp05_L2_p0p06""]",tp01_L1_m0p69,1,-0.69,0,tp05_L2_p0p06,2,0.06,4,,,,,L1 -0.69s + L2 +0.06s
+PAIR__L1_m0p69__L2_p0p82,2,recommended_cross_behavior,"[""tp01_L1_m0p69"", ""tp07_L2_p0p82""]",tp01_L1_m0p69,1,-0.69,0,tp07_L2_p0p82,2,0.82,6,,,,,L1 -0.69s + L2 +0.82s
+PAIR__L3_m0p08__L2_p0p06,2,recommended_cross_behavior,"[""tp08_L3_m0p08"", ""tp05_L2_p0p06""]",tp08_L3_m0p08,3,-0.08,7,tp05_L2_p0p06,2,0.06,4,,,,,L3 -0.08s + L2 +0.06s
+PAIR__L3_m0p08__L2_p0p82,2,recommended_cross_behavior,"[""tp08_L3_m0p08"", ""tp07_L2_p0p82""]",tp08_L3_m0p08,3,-0.08,7,tp07_L2_p0p82,2,0.82,6,,,,,L3 -0.08s + L2 +0.82s
+PAIR__L1_m0p69__L2_p0p46,2,next_ranked_cross_behavior,"[""tp01_L1_m0p69"", ""tp06_L2_p0p46""]",tp01_L1_m0p69,1,-0.69,0,tp06_L2_p0p46,2,0.46,5,,,,,L1 -0.69s + L2 +0.46s
+PAIR__L1_m0p69__L2_m0p39,2,next_ranked_cross_behavior,"[""tp01_L1_m0p69"", ""tp04_L2_m0p39""]",tp01_L1_m0p69,1,-0.69,0,tp04_L2_m0p39,2,-0.39,3,,,,,L1 -0.69s + L2 -0.39s
+PAIR__L2_m0p57__L2_p0p82,2,lowest_overlap_within_L2,"[""tp03_L2_m0p57"", ""tp07_L2_p0p82""]",tp03_L2_m0p57,2,-0.57,2,tp07_L2_p0p82,2,0.82,6,,,,,L2 -0.57s + L2 +0.82s
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,top_nonredundant_all_pairs_measured,"[""tp01_L1_m0p69"", ""tp08_L3_m0p08"", ""tp05_L2_p0p06""]",tp01_L1_m0p69,1,-0.69,0,tp08_L3_m0p08,3,-0.08,7,tp05_L2_p0p06,2.0,0.06,4.0,L1 -0.69s + L3 -0.08s + L2 +0.06s
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,top_nonredundant_all_pairs_measured,"[""tp01_L1_m0p69"", ""tp08_L3_m0p08"", ""tp07_L2_p0p82""]",tp01_L1_m0p69,1,-0.69,0,tp08_L3_m0p08,3,-0.08,7,tp07_L2_p0p82,2.0,0.82,6.0,L1 -0.69s + L3 -0.08s + L2 +0.82s

@@ -1,0 +1,154 @@
+﻿condition_id,mask_order,display_label,module,metric,correlation
+tp01_L1_m0p69,1,L1 -0.69s,no_conv,pearson,0.8802795129589842
+tp01_L1_m0p69,1,L1 -0.69s,no_lstm,pearson,0.0614039301650603
+tp01_L1_m0p69,1,L1 -0.69s,no_attention,pearson,0.4984574780736843
+tp03_L2_m0p57,1,L2 -0.57s,no_conv,pearson,0.6472602759095286
+tp03_L2_m0p57,1,L2 -0.57s,no_lstm,pearson,0.2493021629528613
+tp03_L2_m0p57,1,L2 -0.57s,no_attention,pearson,0.4808984179714783
+tp04_L2_m0p39,1,L2 -0.39s,no_conv,pearson,0.6498981426533239
+tp04_L2_m0p39,1,L2 -0.39s,no_lstm,pearson,0.2515302993211077
+tp04_L2_m0p39,1,L2 -0.39s,no_attention,pearson,0.4822947244782235
+tp05_L2_p0p06,1,L2 +0.06s,no_conv,pearson,0.6883776431489275
+tp05_L2_p0p06,1,L2 +0.06s,no_lstm,pearson,0.4917196174830083
+tp05_L2_p0p06,1,L2 +0.06s,no_attention,pearson,0.6560037870278588
+tp06_L2_p0p46,1,L2 +0.46s,no_conv,pearson,0.6631222715838574
+tp06_L2_p0p46,1,L2 +0.46s,no_lstm,pearson,0.2591814846717791
+tp06_L2_p0p46,1,L2 +0.46s,no_attention,pearson,0.485827346559144
+tp07_L2_p0p82,1,L2 +0.82s,no_conv,pearson,0.6640777476184874
+tp07_L2_p0p82,1,L2 +0.82s,no_lstm,pearson,0.2640141621066502
+tp07_L2_p0p82,1,L2 +0.82s,no_attention,pearson,0.4895648424741232
+tp08_L3_m0p08,1,L3 -0.08s,no_conv,pearson,0.7279844165798256
+tp08_L3_m0p08,1,L3 -0.08s,no_lstm,pearson,-0.1935938742265706
+tp08_L3_m0p08,1,L3 -0.08s,no_attention,pearson,0.2562167295200523
+PAIR__L1_m0p69__L2_m0p39,2,L1 -0.69s + L2 -0.39s,no_conv,pearson,0.8354966858314357
+PAIR__L1_m0p69__L2_m0p39,2,L1 -0.69s + L2 -0.39s,no_lstm,pearson,0.1847854972005765
+PAIR__L1_m0p69__L2_m0p39,2,L1 -0.69s + L2 -0.39s,no_attention,pearson,0.5433860368922759
+PAIR__L1_m0p69__L2_p0p06,2,L1 -0.69s + L2 +0.06s,no_conv,pearson,0.859222038360226
+PAIR__L1_m0p69__L2_p0p06,2,L1 -0.69s + L2 +0.06s,no_lstm,pearson,0.2856521896355499
+PAIR__L1_m0p69__L2_p0p06,2,L1 -0.69s + L2 +0.06s,no_attention,pearson,0.6170049357213797
+PAIR__L1_m0p69__L2_p0p46,2,L1 -0.69s + L2 +0.46s,no_conv,pearson,0.7744067673652056
+PAIR__L1_m0p69__L2_p0p46,2,L1 -0.69s + L2 +0.46s,no_lstm,pearson,0.0122382986499908
+PAIR__L1_m0p69__L2_p0p46,2,L1 -0.69s + L2 +0.46s,no_attention,pearson,0.3909845989973444
+PAIR__L1_m0p69__L2_p0p82,2,L1 -0.69s + L2 +0.82s,no_conv,pearson,0.7768583887282966
+PAIR__L1_m0p69__L2_p0p82,2,L1 -0.69s + L2 +0.82s,no_lstm,pearson,0.0044695634774949
+PAIR__L1_m0p69__L2_p0p82,2,L1 -0.69s + L2 +0.82s,no_attention,pearson,0.3877007055213877
+PAIR__L1_m0p69__L3_m0p08,2,L1 -0.69s + L3 -0.08s,no_conv,pearson,0.8464585224243817
+PAIR__L1_m0p69__L3_m0p08,2,L1 -0.69s + L3 -0.08s,no_lstm,pearson,-0.0088327054875818
+PAIR__L1_m0p69__L3_m0p08,2,L1 -0.69s + L3 -0.08s,no_attention,pearson,0.4359747588517031
+PAIR__L2_m0p57__L2_p0p82,2,L2 -0.57s + L2 +0.82s,no_conv,pearson,0.6529571887669869
+PAIR__L2_m0p57__L2_p0p82,2,L2 -0.57s + L2 +0.82s,no_lstm,pearson,0.2541475939727916
+PAIR__L2_m0p57__L2_p0p82,2,L2 -0.57s + L2 +0.82s,no_attention,pearson,0.4838984459721442
+PAIR__L3_m0p08__L2_p0p06,2,L3 -0.08s + L2 +0.06s,no_conv,pearson,0.7920598313098091
+PAIR__L3_m0p08__L2_p0p06,2,L3 -0.08s + L2 +0.06s,no_lstm,pearson,0.4066376603461477
+PAIR__L3_m0p08__L2_p0p06,2,L3 -0.08s + L2 +0.06s,no_attention,pearson,0.6572343685706379
+PAIR__L3_m0p08__L2_p0p82,2,L3 -0.08s + L2 +0.82s,no_conv,pearson,0.7560046906350553
+PAIR__L3_m0p08__L2_p0p82,2,L3 -0.08s + L2 +0.82s,no_lstm,pearson,0.1870200234356189
+PAIR__L3_m0p08__L2_p0p82,2,L3 -0.08s + L2 +0.82s,no_attention,pearson,0.4914071451615372
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,L1 -0.69s + L3 -0.08s + L2 +0.06s,no_conv,pearson,0.8775601923620205
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,L1 -0.69s + L3 -0.08s + L2 +0.06s,no_lstm,pearson,0.2227136572071406
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,L1 -0.69s + L3 -0.08s + L2 +0.06s,no_attention,pearson,0.5879319139966039
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,L1 -0.69s + L3 -0.08s + L2 +0.82s,no_conv,pearson,0.7917801038009424
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,L1 -0.69s + L3 -0.08s + L2 +0.82s,no_lstm,pearson,-0.0270728488439212
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,L1 -0.69s + L3 -0.08s + L2 +0.82s,no_attention,pearson,0.3780218681968039
+tp01_L1_m0p69,1,L1 -0.69s,no_conv,spearman,0.8207826816681234
+tp01_L1_m0p69,1,L1 -0.69s,no_lstm,spearman,0.2051956704170308
+tp01_L1_m0p69,1,L1 -0.69s,no_attention,spearman,0.5642880936468347
+tp03_L2_m0p57,1,L2 -0.57s,no_conv,spearman,0.4999999999999999
+tp03_L2_m0p57,1,L2 -0.57s,no_lstm,spearman,-0.3
+tp03_L2_m0p57,1,L2 -0.57s,no_attention,spearman,0.0999999999999999
+tp04_L2_m0p39,1,L2 -0.39s,no_conv,spearman,0.6155870112510925
+tp04_L2_m0p39,1,L2 -0.39s,no_lstm,spearman,-0.1025978352085154
+tp04_L2_m0p39,1,L2 -0.39s,no_attention,spearman,0.3077935056255462
+tp05_L2_p0p06,1,L2 +0.06s,no_conv,spearman,0.7181848464596079
+tp05_L2_p0p06,1,L2 +0.06s,no_lstm,spearman,0.4103913408340617
+tp05_L2_p0p06,1,L2 +0.06s,no_attention,spearman,0.6668859288553503
+tp06_L2_p0p46,1,L2 +0.46s,no_conv,spearman,0.6155870112510925
+tp06_L2_p0p46,1,L2 +0.46s,no_lstm,spearman,-0.2051956704170308
+tp06_L2_p0p46,1,L2 +0.46s,no_attention,spearman,0.1538967528127731
+tp07_L2_p0p82,1,L2 +0.82s,no_conv,spearman,0.8207826816681234
+tp07_L2_p0p82,1,L2 +0.82s,no_lstm,spearman,0.2051956704170308
+tp07_L2_p0p82,1,L2 +0.82s,no_attention,spearman,0.5642880936468347
+tp08_L3_m0p08,1,L3 -0.08s,no_conv,spearman,0.7071067811865475
+tp08_L3_m0p08,1,L3 -0.08s,no_lstm,spearman,0.0
+tp08_L3_m0p08,1,L3 -0.08s,no_attention,spearman,0.3535533905932737
+PAIR__L1_m0p69__L2_m0p39,2,L1 -0.69s + L2 -0.39s,no_conv,spearman,0.7
+PAIR__L1_m0p69__L2_m0p39,2,L1 -0.69s + L2 -0.39s,no_lstm,spearman,0.0999999999999999
+PAIR__L1_m0p69__L2_m0p39,2,L1 -0.69s + L2 -0.39s,no_attention,spearman,0.4999999999999999
+PAIR__L1_m0p69__L2_p0p06,2,L1 -0.69s + L2 +0.06s,no_conv,spearman,0.8207826816681234
+PAIR__L1_m0p69__L2_p0p06,2,L1 -0.69s + L2 +0.06s,no_lstm,spearman,0.2051956704170308
+PAIR__L1_m0p69__L2_p0p06,2,L1 -0.69s + L2 +0.06s,no_attention,spearman,0.5642880936468347
+PAIR__L1_m0p69__L2_p0p46,2,L1 -0.69s + L2 +0.46s,no_conv,spearman,0.6155870112510925
+PAIR__L1_m0p69__L2_p0p46,2,L1 -0.69s + L2 +0.46s,no_lstm,spearman,-0.2051956704170308
+PAIR__L1_m0p69__L2_p0p46,2,L1 -0.69s + L2 +0.46s,no_attention,spearman,0.1538967528127731
+PAIR__L1_m0p69__L2_p0p82,2,L1 -0.69s + L2 +0.82s,no_conv,spearman,0.6155870112510925
+PAIR__L1_m0p69__L2_p0p82,2,L1 -0.69s + L2 +0.82s,no_lstm,spearman,-0.2051956704170308
+PAIR__L1_m0p69__L2_p0p82,2,L1 -0.69s + L2 +0.82s,no_attention,spearman,0.1538967528127731
+PAIR__L1_m0p69__L3_m0p08,2,L1 -0.69s + L3 -0.08s,no_conv,spearman,0.8207826816681234
+PAIR__L1_m0p69__L3_m0p08,2,L1 -0.69s + L3 -0.08s,no_lstm,spearman,0.2051956704170308
+PAIR__L1_m0p69__L3_m0p08,2,L1 -0.69s + L3 -0.08s,no_attention,spearman,0.5642880936468347
+PAIR__L2_m0p57__L2_p0p82,2,L2 -0.57s + L2 +0.82s,no_conv,spearman,0.6155870112510925
+PAIR__L2_m0p57__L2_p0p82,2,L2 -0.57s + L2 +0.82s,no_lstm,spearman,-0.1025978352085154
+PAIR__L2_m0p57__L2_p0p82,2,L2 -0.57s + L2 +0.82s,no_attention,spearman,0.3077935056255462
+PAIR__L3_m0p08__L2_p0p06,2,L3 -0.08s + L2 +0.06s,no_conv,spearman,0.7181848464596079
+PAIR__L3_m0p08__L2_p0p06,2,L3 -0.08s + L2 +0.06s,no_lstm,spearman,0.4103913408340617
+PAIR__L3_m0p08__L2_p0p06,2,L3 -0.08s + L2 +0.06s,no_attention,spearman,0.6668859288553503
+PAIR__L3_m0p08__L2_p0p82,2,L3 -0.08s + L2 +0.82s,no_conv,spearman,0.8207826816681234
+PAIR__L3_m0p08__L2_p0p82,2,L3 -0.08s + L2 +0.82s,no_lstm,spearman,0.2051956704170308
+PAIR__L3_m0p08__L2_p0p82,2,L3 -0.08s + L2 +0.82s,no_attention,spearman,0.5642880936468347
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,L1 -0.69s + L3 -0.08s + L2 +0.06s,no_conv,spearman,0.8207826816681234
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,L1 -0.69s + L3 -0.08s + L2 +0.06s,no_lstm,spearman,0.2051956704170308
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,L1 -0.69s + L3 -0.08s + L2 +0.06s,no_attention,spearman,0.5642880936468347
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,L1 -0.69s + L3 -0.08s + L2 +0.82s,no_conv,spearman,0.6155870112510925
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,L1 -0.69s + L3 -0.08s + L2 +0.82s,no_lstm,spearman,-0.2051956704170308
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,L1 -0.69s + L3 -0.08s + L2 +0.82s,no_attention,spearman,0.1538967528127731
+tp01_L1_m0p69,1,L1 -0.69s,no_conv,cosine_similarity,0.8893439865672769
+tp01_L1_m0p69,1,L1 -0.69s,no_lstm,cosine_similarity,0.5132230287264145
+tp01_L1_m0p69,1,L1 -0.69s,no_attention,cosine_similarity,0.4922935148888505
+tp03_L2_m0p57,1,L2 -0.57s,no_conv,cosine_similarity,0.7022720446025283
+tp03_L2_m0p57,1,L2 -0.57s,no_lstm,cosine_similarity,0.6976073301658631
+tp03_L2_m0p57,1,L2 -0.57s,no_attention,cosine_similarity,0.4397174451854712
+tp04_L2_m0p39,1,L2 -0.39s,no_conv,cosine_similarity,0.702744143669212
+tp04_L2_m0p39,1,L2 -0.39s,no_lstm,cosine_similarity,0.7013139540065784
+tp04_L2_m0p39,1,L2 -0.39s,no_attention,cosine_similarity,0.4389766341892747
+tp05_L2_p0p06,1,L2 +0.06s,no_conv,cosine_similarity,0.7218454870064732
+tp05_L2_p0p06,1,L2 +0.06s,no_lstm,cosine_similarity,0.8020655063293985
+tp05_L2_p0p06,1,L2 +0.06s,no_attention,cosine_similarity,0.5445273087674876
+tp06_L2_p0p46,1,L2 +0.46s,no_conv,cosine_similarity,0.7037456968358156
+tp06_L2_p0p46,1,L2 +0.46s,no_lstm,cosine_similarity,0.7188567895488609
+tp06_L2_p0p46,1,L2 +0.46s,no_attention,cosine_similarity,0.4319090847896569
+tp07_L2_p0p82,1,L2 +0.82s,no_conv,cosine_similarity,0.7042938018726418
+tp07_L2_p0p82,1,L2 +0.82s,no_lstm,cosine_similarity,0.7206871397907613
+tp07_L2_p0p82,1,L2 +0.82s,no_attention,cosine_similarity,0.4342381378549791
+tp08_L3_m0p08,1,L3 -0.08s,no_conv,cosine_similarity,0.7781875790263152
+tp08_L3_m0p08,1,L3 -0.08s,no_lstm,cosine_similarity,0.254891105394072
+tp08_L3_m0p08,1,L3 -0.08s,no_attention,cosine_similarity,0.3004078027296943
+PAIR__L1_m0p69__L2_m0p39,2,L1 -0.69s + L2 -0.39s,no_conv,cosine_similarity,0.8224449588548804
+PAIR__L1_m0p69__L2_m0p39,2,L1 -0.69s + L2 -0.39s,no_lstm,cosine_similarity,0.6616488378605119
+PAIR__L1_m0p69__L2_m0p39,2,L1 -0.69s + L2 -0.39s,no_attention,cosine_similarity,0.4870840316404042
+PAIR__L1_m0p69__L2_p0p06,2,L1 -0.69s + L2 +0.06s,no_conv,cosine_similarity,0.8273172538087105
+PAIR__L1_m0p69__L2_p0p06,2,L1 -0.69s + L2 +0.06s,no_lstm,cosine_similarity,0.716158617608458
+PAIR__L1_m0p69__L2_p0p06,2,L1 -0.69s + L2 +0.06s,no_attention,cosine_similarity,0.5254714562401133
+PAIR__L1_m0p69__L2_p0p46,2,L1 -0.69s + L2 +0.46s,no_conv,cosine_similarity,0.7829471604137013
+PAIR__L1_m0p69__L2_p0p46,2,L1 -0.69s + L2 +0.46s,no_lstm,cosine_similarity,0.5950380161711356
+PAIR__L1_m0p69__L2_p0p46,2,L1 -0.69s + L2 +0.46s,no_attention,cosine_similarity,0.3834433521232886
+PAIR__L1_m0p69__L2_p0p82,2,L1 -0.69s + L2 +0.82s,no_conv,cosine_similarity,0.7855906527550128
+PAIR__L1_m0p69__L2_p0p82,2,L1 -0.69s + L2 +0.82s,no_lstm,cosine_similarity,0.5892938338998505
+PAIR__L1_m0p69__L2_p0p82,2,L1 -0.69s + L2 +0.82s,no_attention,cosine_similarity,0.3820577947875153
+PAIR__L1_m0p69__L3_m0p08,2,L1 -0.69s + L3 -0.08s,no_conv,cosine_similarity,0.8696582443686235
+PAIR__L1_m0p69__L3_m0p08,2,L1 -0.69s + L3 -0.08s,no_lstm,cosine_similarity,0.4523040045395712
+PAIR__L1_m0p69__L3_m0p08,2,L1 -0.69s + L3 -0.08s,no_attention,cosine_similarity,0.4481281034840657
+PAIR__L2_m0p57__L2_p0p82,2,L2 -0.57s + L2 +0.82s,no_conv,cosine_similarity,0.7032212882785052
+PAIR__L2_m0p57__L2_p0p82,2,L2 -0.57s + L2 +0.82s,no_lstm,cosine_similarity,0.7055685697237002
+PAIR__L2_m0p57__L2_p0p82,2,L2 -0.57s + L2 +0.82s,no_attention,cosine_similarity,0.4380651688663576
+PAIR__L3_m0p08__L2_p0p06,2,L3 -0.08s + L2 +0.06s,no_conv,cosine_similarity,0.7814302843925065
+PAIR__L3_m0p08__L2_p0p06,2,L3 -0.08s + L2 +0.06s,no_lstm,cosine_similarity,0.7706831026761016
+PAIR__L3_m0p08__L2_p0p06,2,L3 -0.08s + L2 +0.06s,no_attention,cosine_similarity,0.5436044172864479
+PAIR__L3_m0p08__L2_p0p82,2,L3 -0.08s + L2 +0.82s,no_conv,cosine_similarity,0.7602231452331473
+PAIR__L3_m0p08__L2_p0p82,2,L3 -0.08s + L2 +0.82s,no_lstm,cosine_similarity,0.6866568753999693
+PAIR__L3_m0p08__L2_p0p82,2,L3 -0.08s + L2 +0.82s,no_attention,cosine_similarity,0.4384833663434234
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,L1 -0.69s + L3 -0.08s + L2 +0.06s,no_conv,cosine_similarity,0.8453535628465646
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,L1 -0.69s + L3 -0.08s + L2 +0.06s,no_lstm,cosine_similarity,0.6817526474781501
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06,3,L1 -0.69s + L3 -0.08s + L2 +0.06s,no_attention,cosine_similarity,0.513770538628098
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,L1 -0.69s + L3 -0.08s + L2 +0.82s,no_conv,cosine_similarity,0.8015802295399788
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,L1 -0.69s + L3 -0.08s + L2 +0.82s,no_lstm,cosine_similarity,0.560059199799294
+TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82,3,L1 -0.69s + L3 -0.08s + L2 +0.82s,no_attention,cosine_similarity,0.3800487126269861

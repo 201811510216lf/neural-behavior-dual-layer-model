@@ -17,6 +17,7 @@ This index maps the group-meeting presentation to the public release.
 | Additional neural-model analyses | `results/association/` | Baseline reproduction, RSA, CKA, decision geometry, overlap dependence, and functional interventions |
 | Window × behavior and architecture interactions | `results/window_mechanism/` | Figures A–D and Supplementary Figure E, fold-level aggregate source data, exact sign-flip/FDR tables, 500-repeat matched-null controls, and reproducible code |
 | Point-wise data ablation × module ablation | `results/single_timepoint_module_ablation_association/` | 24 point masks, NoConv/NoLSTM/NoAttention, matched OOF samples, A–G associations, double-ablation interactions, complete source data, QA, and paper-ready figures |
+| Pair/triple data ablation × module ablation | `results/multi_mask_module_ablation_association/` | Eight hypothesis-driven pair masks, two gate-triggered triples, all three modules, additivity and sample-level analyses, 500 matched random controls per condition, complete source data, QA, and paper-ready figures |
 | 2026-09-21 presentation captions | `docs/GROUP_MEETING_2026-09-21_CAPTIONS.md` | Slide-by-slide figure legends, table titles, statistical wording, and interpretation safeguards |
 
 ## Main result snapshots
@@ -39,3 +40,7 @@ The new exact-mask circular-shift controls preserve the geometry and bin count o
 ## Point-wise × module-ablation update
 
 The 24-timepoint analysis keeps the legacy 5 s / 10 ms / 500-bin / 250-bin-step protocol, reuses the same three-fold test indices, and performs frozen-model inference only. Its strongest single point-wise recall effect was L5 +0.70 s on L5 (-6.313 percentage points), while the largest structural recall effect was NoConv on L4 (-14.810 percentage points). The strongest five-behavior recall-vector Spearman correlation was 0.821, but the largest pooled CW damage-set Jaccard was only 0.065 and the largest sample-level Spearman correlation was 0.154. Similarity, double-ablation interaction, and biological causality are therefore reported as separate evidential layers.
+
+## Multi-region × module-ablation update
+
+The pair/triple extension uses Boolean mask unions on the original clean window and performs maximum replacement only once. Two of eight pairs had positive NoConv Pearson gain over their best constituent single; the largest was +0.064. Neither triple improved over its best constituent single. Across all modules, the largest absolute sample-level ΔPtrue Spearman correlation was 0.106 and the largest pooled CW Jaccard was 0.070. Each real condition was compared with 500 stage/coverage/component/union-size-matched random controls; no real NoConv Pearson correlation or gain was significant (minimum empirical p=0.1876, Pearson-family BH q≥0.9900). The result does not support region-specific Conv correspondence.

@@ -1,0 +1,80 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "required_source_files_nonempty",
+      "passed": true,
+      "detail": "13 files"
+    },
+    {
+      "check": "condition_counts",
+      "passed": true,
+      "detail": "total=10, pair=8, triple=2"
+    },
+    {
+      "check": "paired_prediction_keys_unique",
+      "passed": true,
+      "detail": "rows=11930, duplicates=0"
+    },
+    {
+      "check": "stagewise_not_fake_five_class",
+      "passed": true,
+      "detail": "['run1', 'run2']"
+    },
+    {
+      "check": "all_conditions_use_same_1193_oof_samples",
+      "passed": true,
+      "detail": "{'PAIR__L1_m0p69__L2_m0p39': 1193, 'PAIR__L1_m0p69__L2_p0p06': 1193, 'PAIR__L1_m0p69__L2_p0p46': 1193, 'PAIR__L1_m0p69__L2_p0p82': 1193, 'PAIR__L1_m0p69__L3_m0p08': 1193, 'PAIR__L2_m0p57__L2_p0p82': 1193, 'PAIR__L3_m0p08__L2_p0p06': 1193, 'PAIR__L3_m0p08__L2_p0p82': 1193, 'TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06': 1193, 'TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82': 1193}"
+    },
+    {
+      "check": "mask_hits_consistent_with_bins",
+      "passed": true,
+      "detail": "mismatches=0"
+    },
+    {
+      "check": "random_null_summary_shape",
+      "passed": true,
+      "detail": "correlation=90, gain=90"
+    },
+    {
+      "check": "random_null_q_values_present",
+      "passed": true,
+      "detail": "global and metric-family BH"
+    },
+    {
+      "check": "random_null_500_per_condition",
+      "passed": true,
+      "detail": "{'PAIR__L1_m0p69__L2_m0p39': 500, 'PAIR__L1_m0p69__L2_p0p06': 500, 'PAIR__L1_m0p69__L2_p0p46': 500, 'PAIR__L1_m0p69__L2_p0p82': 500, 'PAIR__L1_m0p69__L3_m0p08': 500, 'PAIR__L2_m0p57__L2_p0p82': 500, 'PAIR__L3_m0p08__L2_p0p06': 500, 'PAIR__L3_m0p08__L2_p0p82': 500, 'TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06': 500, 'TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82': 500}"
+    },
+    {
+      "check": "random_null_affected_windows_exact",
+      "passed": true,
+      "detail": "mismatches=0"
+    },
+    {
+      "check": "random_null_union_size_within_6pct",
+      "passed": true,
+      "detail": "max_abs_relative_error=0.058566"
+    },
+    {
+      "check": "saved_fold_alignment",
+      "passed": true,
+      "detail": "rows=8"
+    },
+    {
+      "check": "gpu_cpu_exact_class_predictions",
+      "passed": true,
+      "detail": "rows=60, mismatches=0"
+    },
+    {
+      "check": "single_baseline_audit",
+      "passed": true,
+      "detail": "[{'check': '24_timepoints', 'passed': True}, {'check': 'clean_baseline_reproduced', 'passed': True}, {'check': 'structural_metrics_reproduced', 'passed': True}, {'check': 'top7_NoConv_Pearson_reproduced', 'passed': True}]"
+    },
+    {
+      "check": "figure_formats_complete",
+      "passed": true,
+      "detail": "stems=12"
+    }
+  ]
+}

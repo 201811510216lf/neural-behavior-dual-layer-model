@@ -1,0 +1,16 @@
+﻿check,passed,detail
+required_source_files_nonempty,True,13 files
+condition_counts,True,"total=10, pair=8, triple=2"
+paired_prediction_keys_unique,True,"rows=11930, duplicates=0"
+stagewise_not_fake_five_class,True,"['run1', 'run2']"
+all_conditions_use_same_1193_oof_samples,True,"{'PAIR__L1_m0p69__L2_m0p39': 1193, 'PAIR__L1_m0p69__L2_p0p06': 1193, 'PAIR__L1_m0p69__L2_p0p46': 1193, 'PAIR__L1_m0p69__L2_p0p82': 1193, 'PAIR__L1_m0p69__L3_m0p08': 1193, 'PAIR__L2_m0p57__L2_p0p82': 1193, 'PAIR__L3_m0p08__L2_p0p06': 1193, 'PAIR__L3_m0p08__L2_p0p82': 1193, 'TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06': 1193, 'TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82': 1193}"
+mask_hits_consistent_with_bins,True,mismatches=0
+random_null_summary_shape,True,"correlation=90, gain=90"
+random_null_q_values_present,True,global and metric-family BH
+random_null_500_per_condition,True,"{'PAIR__L1_m0p69__L2_m0p39': 500, 'PAIR__L1_m0p69__L2_p0p06': 500, 'PAIR__L1_m0p69__L2_p0p46': 500, 'PAIR__L1_m0p69__L2_p0p82': 500, 'PAIR__L1_m0p69__L3_m0p08': 500, 'PAIR__L2_m0p57__L2_p0p82': 500, 'PAIR__L3_m0p08__L2_p0p06': 500, 'PAIR__L3_m0p08__L2_p0p82': 500, 'TRIPLE__L1_m0p69__L3_m0p08__L2_p0p06': 500, 'TRIPLE__L1_m0p69__L3_m0p08__L2_p0p82': 500}"
+random_null_affected_windows_exact,True,mismatches=0
+random_null_union_size_within_6pct,True,max_abs_relative_error=0.058566
+saved_fold_alignment,True,rows=8
+gpu_cpu_exact_class_predictions,True,"rows=60, mismatches=0"
+single_baseline_audit,True,"[{'check': '24_timepoints', 'passed': True}, {'check': 'clean_baseline_reproduced', 'passed': True}, {'check': 'structural_metrics_reproduced', 'passed': True}, {'check': 'top7_NoConv_Pearson_reproduced', 'passed': True}]"
+figure_formats_complete,True,stems=12

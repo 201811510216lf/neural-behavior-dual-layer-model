@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "training_performed": false,
+  "resplitting_performed": false,
+  "n_pairs": 8,
+  "n_triples": 2,
+  "triple_gate_passed": true,
+  "n_null_per_condition": 500,
+  "prediction_rows": 11930,
+  "figures": [
+    "figA1_module_correlation_pearson.png",
+    "figA2_module_correlation_spearman.png",
+    "figA3_module_correlation_cosine.png",
+    "figB_correlation_accumulation.png",
+    "figC_gain_over_best_single_cosine.png",
+    "figC_gain_over_best_single_pearson.png",
+    "figC_gain_over_best_single_spearman.png",
+    "figD_pair_additivity_interaction.png",
+    "figE_sample_delta_ptrue_correlation.png",
+    "figF_CW_overlap.png",
+    "figG_real_vs_random_null.png",
+    "figH_mask_geometry_QA.png"
+  ]
+}

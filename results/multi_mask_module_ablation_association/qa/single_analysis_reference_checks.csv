@@ -1,0 +1,5 @@
+﻿check,passed
+24_timepoints,True
+clean_baseline_reproduced,True
+structural_metrics_reproduced,True
+top7_NoConv_Pearson_reproduced,True
